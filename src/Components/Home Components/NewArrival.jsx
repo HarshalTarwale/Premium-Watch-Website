@@ -43,7 +43,7 @@ const NewArrival = () => {
               <NewCard imageSrc="Home/Arrival images/NASA Took OMEGA's Speedmaster to the Moon; Swatch Took it Across the Galaxy 1.png" />
             </SwiperSlide>
             <SwiperSlide>
-              <NewCard imageSrc="Home/Arrival images/NASA Took OMEGA's Speedmaster to the Moon; Swatch Took it Across the Galaxy (1) 1.png" />
+              <NewCard imageSrc="public\Home\Arrival images\OMEGA50 anniversary - Charles Helleu 1.png" />
             </SwiperSlide>
             <SwiperSlide>
               <NewCard imageSrc="Home/Arrival images/Jewelry — Dylan Griffin Photography 1.png" />
