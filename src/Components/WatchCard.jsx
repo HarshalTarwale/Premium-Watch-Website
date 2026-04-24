@@ -35,6 +35,8 @@ const WatchCard = ({
   rating,
   starIcon = null 
 }) => {
+  const baseUrl = import.meta.env.BASE_URL
+  
   return (
     // 🎨 Main Card Container - Glass morphism effect with blur and transparency
     <div className="card-shell bg-[rgba(255,255,255,0.1)] backdrop-blur-md border border-[rgba(255,255,255,0.2)] shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] overflow-hidden relative rounded-[1.05vw] w-[12.5vw] h-[39vh] hover:scale-102 transition-transform duration-150">
@@ -47,7 +49,7 @@ const WatchCard = ({
           <img 
             alt={title}
             className="absolute inset-0 w-full h-full object-cover pointer-events-none rounded-[1.03vw]" 
-            src={imageSrc}
+            src={`${baseUrl}${imageSrc}`}
           />
         </div>
         

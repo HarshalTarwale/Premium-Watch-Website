@@ -8,7 +8,7 @@ const Watchs = () => {
     // Row 1
     {
       id: 1,
-      imageSrc: 'public/Raga/watches/Rolex Milgauss.jpg',
+      imageSrc: 'Raga/watches/Rolex Milgauss.jpg',
       title: 'Titan | Raga Milgauss Edition',
       description: 'Elegant Luxury Timepiece',
       price: '₹ 16,495.00',
@@ -16,7 +16,7 @@ const Watchs = () => {
     },
     {
       id: 2,
-      imageSrc: 'public/Raga/watches/IWC Pilot Watch Chronograph.jpg',
+      imageSrc: 'Raga/watches/IWC Pilot Watch Chronograph.jpg',
       title: 'Titan | Raga Pilot Chronograph',
       description: 'Aviation Inspired Watch',
       price: '₹ 18,995.00',
@@ -24,7 +24,7 @@ const Watchs = () => {
     },
     {
       id: 3,
-      imageSrc: 'public/Raga/watches/Product Photography.jpg',
+      imageSrc: 'Raga/watches/Product Photography.jpg',
       title: 'Titan | Raga Premium Collection',
       description: 'Sophisticated Design Watch',
       price: '₹ 14,795.00',
@@ -32,7 +32,7 @@ const Watchs = () => {
     },
     {
       id: 4,
-      imageSrc: 'public/Raga/watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
+      imageSrc: 'Raga/watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
       title: 'Titan | Raga Field Watch',
       description: 'Adventure Ready Timepiece',
       price: '₹ 12,995.00',
@@ -40,7 +40,7 @@ const Watchs = () => {
     },
     {
       id: 5,
-      imageSrc: 'public/Raga/watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
+      imageSrc: 'Raga/watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
       title: 'Titan | Raga Space Edition',
       description: 'NASA Inspired Watch',
       price: '₹ 19,495.00',
@@ -48,7 +48,7 @@ const Watchs = () => {
     },
     {
       id: 6,
-      imageSrc: 'public/Raga/watches/Men Mesh Strap Round Pointer Quartz Watch (1).jpg',
+      imageSrc: 'Raga/watches/Men Mesh Strap Round Pointer Quartz Watch (1).jpg',
       title: 'Titan | Raga Mesh Strap',
       description: 'Modern Mesh Band Watch',
       price: '₹ 13,295.00',
@@ -57,7 +57,7 @@ const Watchs = () => {
     // Row 2
     {
       id: 7,
-      imageSrc: 'public/Raga/watches/Rolex Baselworld 2019 - Rolex Predictions 2019 - Rolex Novelties 2019.jpg',
+      imageSrc: 'Raga/watches/Rolex Baselworld 2019 - Rolex Predictions 2019 - Rolex Novelties 2019.jpg',
       title: 'Titan | Raga Baselworld',
       description: 'Limited Edition Collection',
       price: '₹ 21,995.00',
@@ -65,7 +65,7 @@ const Watchs = () => {
     },
     {
       id: 8,
-      imageSrc: 'public/Raga/watches/Rolex Oyster Perpetual 39 Ref_ 114300 In-depth Review.jpg',
+      imageSrc: 'Raga/watches/Rolex Oyster Perpetual 39 Ref_ 114300 In-depth Review.jpg',
       title: 'Titan | Raga Perpetual 39',
       description: 'Classic Steel Watch',
       price: '₹ 17,795.00',
@@ -73,7 +73,7 @@ const Watchs = () => {
     },
     {
       id: 9,
-      imageSrc: 'public/Raga/watches/download (11).jpg',
+      imageSrc: 'Raga/watches/download (11).jpg',
       title: 'Titan | Raga Classic Series',
       description: 'Timeless Elegance Watch',
       price: '₹ 14,495.00',
@@ -81,7 +81,7 @@ const Watchs = () => {
     },
     {
       id: 10,
-      imageSrc: 'public/Raga/watches/download (12).jpg',
+      imageSrc: 'Raga/watches/download (12).jpg',
       title: 'Titan | Raga Sport Edition',
       description: 'Active Lifestyle Watch',
       price: '₹ 13,795.00',
@@ -89,7 +89,7 @@ const Watchs = () => {
     },
     {
       id: 11,
-      imageSrc: 'public/Raga/watches/download (13).jpg',
+      imageSrc: 'Raga/watches/download (13).jpg',
       title: 'Titan | Raga Designer',
       description: 'Fashion Forward Watch',
       price: '₹ 15,295.00',
@@ -97,7 +97,7 @@ const Watchs = () => {
     },
     {
       id: 12,
-      imageSrc: 'public/Raga/watches/download (14).jpg',
+      imageSrc: 'Raga/watches/download (14).jpg',
       title: 'Titan | Raga Executive',
       description: 'Professional Business Watch',
       price: '₹ 16,995.00',
@@ -106,7 +106,7 @@ const Watchs = () => {
     // Row 3
     {
       id: 13,
-      imageSrc: 'public/Raga/watches/download (15).jpg',
+      imageSrc: 'Raga/watches/download (15).jpg',
       title: 'Titan | Raga Heritage',
       description: 'Traditional Luxury Watch',
       price: '₹ 18,295.00',
@@ -114,7 +114,7 @@ const Watchs = () => {
     },
     {
       id: 14,
-      imageSrc: 'public/Raga/watches/download (16).jpg',
+      imageSrc: 'Raga/watches/download (16).jpg',
       title: 'Titan | Raga Prestige',
       description: 'High-End Timepiece',
       price: '₹ 19,995.00',
@@ -122,7 +122,7 @@ const Watchs = () => {
     },
     {
       id: 15,
-      imageSrc: 'public/Raga/watches/download (17).jpg',
+      imageSrc: 'Raga/watches/download (17).jpg',
       title: 'Titan | Raga Signature',
       description: 'Signature Collection Watch',
       price: '₹ 17,495.00',
@@ -130,7 +130,7 @@ const Watchs = () => {
     },
     {
       id: 16,
-      imageSrc: 'public/Raga/watches/Rolex Milgauss.jpg',
+      imageSrc: 'Raga/watches/Rolex Milgauss.jpg',
       title: 'Titan | Raga Milgauss Edition',
       description: 'Elegant Luxury Timepiece',
       price: '₹ 16,495.00',
@@ -138,7 +138,7 @@ const Watchs = () => {
     },
     {
       id: 17,
-      imageSrc: 'public/Raga/watches/IWC Pilot Watch Chronograph.jpg',
+      imageSrc: 'Raga/watches/IWC Pilot Watch Chronograph.jpg',
       title: 'Titan | Raga Pilot Chronograph',
       description: 'Aviation Inspired Watch',
       price: '₹ 18,995.00',
@@ -146,7 +146,7 @@ const Watchs = () => {
     },
     {
       id: 18,
-      imageSrc: 'public/Raga/watches/Product Photography.jpg',
+      imageSrc: 'Raga/watches/Product Photography.jpg',
       title: 'Titan | Raga Premium Collection',
       description: 'Sophisticated Design Watch',
       price: '₹ 14,795.00',
@@ -155,7 +155,7 @@ const Watchs = () => {
     // Row 4
     {
       id: 19,
-      imageSrc: 'public/Raga/watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
+      imageSrc: 'Raga/watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
       title: 'Titan | Raga Field Watch',
       description: 'Adventure Ready Timepiece',
       price: '₹ 12,995.00',
@@ -163,7 +163,7 @@ const Watchs = () => {
     },
     {
       id: 20,
-      imageSrc: 'public/Raga/watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
+      imageSrc: 'Raga/watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
       title: 'Titan | Raga Space Edition',
       description: 'NASA Inspired Watch',
       price: '₹ 19,495.00',
@@ -171,7 +171,7 @@ const Watchs = () => {
     },
     {
       id: 21,
-      imageSrc: 'public/Raga/watches/Men Mesh Strap Round Pointer Quartz Watch (1).jpg',
+      imageSrc: 'Raga/watches/Men Mesh Strap Round Pointer Quartz Watch (1).jpg',
       title: 'Titan | Raga Mesh Strap',
       description: 'Modern Mesh Band Watch',
       price: '₹ 13,295.00',
@@ -179,7 +179,7 @@ const Watchs = () => {
     },
     {
       id: 22,
-      imageSrc: 'public/Raga/watches/Rolex Baselworld 2019 - Rolex Predictions 2019 - Rolex Novelties 2019.jpg',
+      imageSrc: 'Raga/watches/Rolex Baselworld 2019 - Rolex Predictions 2019 - Rolex Novelties 2019.jpg',
       title: 'Titan | Raga Baselworld',
       description: 'Limited Edition Collection',
       price: '₹ 21,995.00',
@@ -187,7 +187,7 @@ const Watchs = () => {
     },
     {
       id: 23,
-      imageSrc: 'public/Raga/watches/Rolex Oyster Perpetual 39 Ref_ 114300 In-depth Review.jpg',
+      imageSrc: 'Raga/watches/Rolex Oyster Perpetual 39 Ref_ 114300 In-depth Review.jpg',
       title: 'Titan | Raga Perpetual 39',
       description: 'Classic Steel Watch',
       price: '₹ 17,795.00',
@@ -195,7 +195,7 @@ const Watchs = () => {
     },
     {
       id: 24,
-      imageSrc: 'public/Raga/watches/download (11).jpg',
+      imageSrc: 'Raga/watches/download (11).jpg',
       title: 'Titan | Raga Classic Series',
       description: 'Timeless Elegance Watch',
       price: '₹ 14,495.00',
@@ -204,7 +204,7 @@ const Watchs = () => {
     // Row 5
     {
       id: 25,
-      imageSrc: 'public/Raga/watches/download (12).jpg',
+      imageSrc: 'Raga/watches/download (12).jpg',
       title: 'Titan | Raga Sport Edition',
       description: 'Active Lifestyle Watch',
       price: '₹ 13,795.00',
@@ -212,7 +212,7 @@ const Watchs = () => {
     },
     {
       id: 26,
-      imageSrc: 'public/Raga/watches/download (13).jpg',
+      imageSrc: 'Raga/watches/download (13).jpg',
       title: 'Titan | Raga Designer',
       description: 'Fashion Forward Watch',
       price: '₹ 15,295.00',
@@ -220,7 +220,7 @@ const Watchs = () => {
     },
     {
       id: 27,
-      imageSrc: 'public/Raga/watches/download (14).jpg',
+      imageSrc: 'Raga/watches/download (14).jpg',
       title: 'Titan | Raga Executive',
       description: 'Professional Business Watch',
       price: '₹ 16,995.00',
@@ -228,7 +228,7 @@ const Watchs = () => {
     },
     {
       id: 28,
-      imageSrc: 'public/Raga/watches/download (15).jpg',
+      imageSrc: 'Raga/watches/download (15).jpg',
       title: 'Titan | Raga Heritage',
       description: 'Traditional Luxury Watch',
       price: '₹ 18,295.00',
@@ -236,7 +236,7 @@ const Watchs = () => {
     },
     {
       id: 29,
-      imageSrc: 'public/Raga/watches/download (16).jpg',
+      imageSrc: 'Raga/watches/download (16).jpg',
       title: 'Titan | Raga Prestige',
       description: 'High-End Timepiece',
       price: '₹ 19,995.00',
@@ -244,7 +244,7 @@ const Watchs = () => {
     },
     {
       id: 30,
-      imageSrc: 'public/Raga/watches/download (17).jpg',
+      imageSrc: 'Raga/watches/download (17).jpg',
       title: 'Titan | Raga Signature',
       description: 'Signature Collection Watch',
       price: '₹ 17,495.00',
@@ -253,7 +253,7 @@ const Watchs = () => {
     // Row 6
     {
       id: 31,
-      imageSrc: 'public/Raga/watches/Rolex Milgauss.jpg',
+      imageSrc: 'Raga/watches/Rolex Milgauss.jpg',
       title: 'Titan | Raga Milgauss Edition',
       description: 'Elegant Luxury Timepiece',
       price: '₹ 16,495.00',
@@ -261,7 +261,7 @@ const Watchs = () => {
     },
     {
       id: 32,
-      imageSrc: 'public/Raga/watches/IWC Pilot Watch Chronograph.jpg',
+      imageSrc: 'Raga/watches/IWC Pilot Watch Chronograph.jpg',
       title: 'Titan | Raga Pilot Chronograph',
       description: 'Aviation Inspired Watch',
       price: '₹ 18,995.00',
@@ -269,7 +269,7 @@ const Watchs = () => {
     },
     {
       id: 33,
-      imageSrc: 'public/Raga/watches/Product Photography.jpg',
+      imageSrc: 'Raga/watches/Product Photography.jpg',
       title: 'Titan | Raga Premium Collection',
       description: 'Sophisticated Design Watch',
       price: '₹ 14,795.00',
@@ -277,7 +277,7 @@ const Watchs = () => {
     },
     {
       id: 34,
-      imageSrc: 'public/Raga/watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
+      imageSrc: 'Raga/watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
       title: 'Titan | Raga Field Watch',
       description: 'Adventure Ready Timepiece',
       price: '₹ 12,995.00',
@@ -285,7 +285,7 @@ const Watchs = () => {
     },
     {
       id: 35,
-      imageSrc: 'public/Raga/watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
+      imageSrc: 'Raga/watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
       title: 'Titan | Raga Space Edition',
       description: 'NASA Inspired Watch',
       price: '₹ 19,495.00',
@@ -293,7 +293,7 @@ const Watchs = () => {
     },
     {
       id: 36,
-      imageSrc: 'public/Raga/watches/Men Mesh Strap Round Pointer Quartz Watch (1).jpg',
+      imageSrc: 'Raga/watches/Men Mesh Strap Round Pointer Quartz Watch (1).jpg',
       title: 'Titan | Raga Mesh Strap',
       description: 'Modern Mesh Band Watch',
       price: '₹ 13,295.00',

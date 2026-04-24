@@ -8,7 +8,7 @@ const Watchs = () => {
     // Row 1
     {
       id: 1,
-      imageSrc: 'public/Fastract/watches/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png',
+      imageSrc: 'Fastract/watches/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png',
       title: 'Titan | Fastract G-Shock Metal',
       description: 'Rugged Sport Smartwatch',
       price: '₹ 14,995.00',
@@ -16,7 +16,7 @@ const Watchs = () => {
     },
     {
       id: 2,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png',
       title: 'Titan | Fastract Pantone Blue',
       description: 'Automatic Fashion Watch',
       price: '₹ 12,495.00',
@@ -24,7 +24,7 @@ const Watchs = () => {
     },
     {
       id: 3,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png',
       title: 'Titan | Fastract Pantone Green',
       description: 'Colorful Automatic Watch',
       price: '₹ 12,495.00',
@@ -32,7 +32,7 @@ const Watchs = () => {
     },
     {
       id: 4,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png',
       title: 'Titan | Fastract Pantone Pink',
       description: 'Vibrant Automatic Watch',
       price: '₹ 12,495.00',
@@ -40,7 +40,7 @@ const Watchs = () => {
     },
     {
       id: 5,
-      imageSrc: 'public/Fastract/watches/Rolex Sky Dweller 1.png',
+      imageSrc: 'Fastract/watches/Rolex Sky Dweller 1.png',
       title: 'Titan | Fastract Sky Dweller',
       description: 'Premium Dual Time Watch',
       price: '₹ 22,995.00',
@@ -48,7 +48,7 @@ const Watchs = () => {
     },
     {
       id: 6,
-      imageSrc: 'public/Fastract/watches/Poetry in motion 1.png',
+      imageSrc: 'Fastract/watches/Poetry in motion 1.png',
       title: 'Titan | Fastract Poetry Motion',
       description: 'Artistic Design Watch',
       price: '₹ 16,995.00',
@@ -57,7 +57,7 @@ const Watchs = () => {
     // Row 2
     {
       id: 7,
-      imageSrc: 'public/Fastract/watches/Premium Photo _ Man watch mockup without brand in flat photography 1.png',
+      imageSrc: 'Fastract/watches/Premium Photo _ Man watch mockup without brand in flat photography 1.png',
       title: 'Titan | Fastract Premium',
       description: 'Clean Minimalist Watch',
       price: '₹ 13,795.00',
@@ -65,7 +65,7 @@ const Watchs = () => {
     },
     {
       id: 8,
-      imageSrc: 'public/Fastract/watches/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
+      imageSrc: 'Fastract/watches/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
       title: 'Titan | Fastract Speedtimer',
       description: 'Solar Chronograph Watch',
       price: '₹ 18,495.00',
@@ -73,7 +73,7 @@ const Watchs = () => {
     },
     {
       id: 9,
-      imageSrc: 'public/Fastract/watches/Olivia Burton London.jpg',
+      imageSrc: 'Fastract/watches/Olivia Burton London.jpg',
       title: 'Titan | Fastract London',
       description: 'Elegant Fashion Watch',
       price: '₹ 9,995.00',
@@ -81,7 +81,7 @@ const Watchs = () => {
     },
     {
       id: 10,
-      imageSrc: 'public/Fastract/watches/Latest Elegant Watches.jpg',
+      imageSrc: 'Fastract/watches/Latest Elegant Watches.jpg',
       title: 'Titan | Fastract Elegant',
       description: 'Modern Chic Watch',
       price: '₹ 8,795.00',
@@ -89,7 +89,7 @@ const Watchs = () => {
     },
     {
       id: 11,
-      imageSrc: 'public/Fastract/watches/Floral Strap Round Pointer Quartz Watch.jpg',
+      imageSrc: 'Fastract/watches/Floral Strap Round Pointer Quartz Watch.jpg',
       title: 'Titan | Fastract Floral',
       description: 'Floral Design Watch',
       price: '₹ 7,495.00',
@@ -97,7 +97,7 @@ const Watchs = () => {
     },
     {
       id: 12,
-      imageSrc: 'public/Fastract/watches/download (10).jpg',
+      imageSrc: 'Fastract/watches/download (10).jpg',
       title: 'Titan | Fastract Sport',
       description: 'Active Lifestyle Watch',
       price: '₹ 9,295.00',
@@ -106,7 +106,7 @@ const Watchs = () => {
     // Row 3
     {
       id: 13,
-      imageSrc: 'public/Fastract/watches/download (11).jpg',
+      imageSrc: 'Fastract/watches/download (11).jpg',
       title: 'Titan | Fastract Classic',
       description: 'Timeless Design Watch',
       price: '₹ 10,495.00',
@@ -114,7 +114,7 @@ const Watchs = () => {
     },
     {
       id: 14,
-      imageSrc: 'public/Fastract/watches/download (12).jpg',
+      imageSrc: 'Fastract/watches/download (12).jpg',
       title: 'Titan | Fastract Urban',
       description: 'City Style Watch',
       price: '₹ 11,295.00',
@@ -122,7 +122,7 @@ const Watchs = () => {
     },
     {
       id: 15,
-      imageSrc: 'public/Fastract/watches/download (13).jpg',
+      imageSrc: 'Fastract/watches/download (13).jpg',
       title: 'Titan | Fastract Designer',
       description: 'Fashion Forward Watch',
       price: '₹ 12,995.00',
@@ -130,7 +130,7 @@ const Watchs = () => {
     },
     {
       id: 16,
-      imageSrc: 'public/Fastract/watches/download (14).jpg',
+      imageSrc: 'Fastract/watches/download (14).jpg',
       title: 'Titan | Fastract Executive',
       description: 'Professional Watch',
       price: '₹ 13,495.00',
@@ -138,7 +138,7 @@ const Watchs = () => {
     },
     {
       id: 17,
-      imageSrc: 'public/Fastract/watches/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png',
+      imageSrc: 'Fastract/watches/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png',
       title: 'Titan | Fastract G-Shock Metal',
       description: 'Rugged Sport Smartwatch',
       price: '₹ 14,995.00',
@@ -146,7 +146,7 @@ const Watchs = () => {
     },
     {
       id: 18,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png',
       title: 'Titan | Fastract Pantone Blue',
       description: 'Automatic Fashion Watch',
       price: '₹ 12,495.00',
@@ -155,7 +155,7 @@ const Watchs = () => {
     // Row 4
     {
       id: 19,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png',
       title: 'Titan | Fastract Pantone Green',
       description: 'Colorful Automatic Watch',
       price: '₹ 12,495.00',
@@ -163,7 +163,7 @@ const Watchs = () => {
     },
     {
       id: 20,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png',
       title: 'Titan | Fastract Pantone Pink',
       description: 'Vibrant Automatic Watch',
       price: '₹ 12,495.00',
@@ -171,7 +171,7 @@ const Watchs = () => {
     },
     {
       id: 21,
-      imageSrc: 'public/Fastract/watches/Rolex Sky Dweller 1.png',
+      imageSrc: 'Fastract/watches/Rolex Sky Dweller 1.png',
       title: 'Titan | Fastract Sky Dweller',
       description: 'Premium Dual Time Watch',
       price: '₹ 22,995.00',
@@ -179,7 +179,7 @@ const Watchs = () => {
     },
     {
       id: 22,
-      imageSrc: 'public/Fastract/watches/Poetry in motion 1.png',
+      imageSrc: 'Fastract/watches/Poetry in motion 1.png',
       title: 'Titan | Fastract Poetry Motion',
       description: 'Artistic Design Watch',
       price: '₹ 16,995.00',
@@ -187,7 +187,7 @@ const Watchs = () => {
     },
     {
       id: 23,
-      imageSrc: 'public/Fastract/watches/Premium Photo _ Man watch mockup without brand in flat photography 1.png',
+      imageSrc: 'Fastract/watches/Premium Photo _ Man watch mockup without brand in flat photography 1.png',
       title: 'Titan | Fastract Premium',
       description: 'Clean Minimalist Watch',
       price: '₹ 13,795.00',
@@ -195,7 +195,7 @@ const Watchs = () => {
     },
     {
       id: 24,
-      imageSrc: 'public/Fastract/watches/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
+      imageSrc: 'Fastract/watches/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
       title: 'Titan | Fastract Speedtimer',
       description: 'Solar Chronograph Watch',
       price: '₹ 18,495.00',
@@ -204,7 +204,7 @@ const Watchs = () => {
     // Row 5
     {
       id: 25,
-      imageSrc: 'public/Fastract/watches/Olivia Burton London.jpg',
+      imageSrc: 'Fastract/watches/Olivia Burton London.jpg',
       title: 'Titan | Fastract London',
       description: 'Elegant Fashion Watch',
       price: '₹ 9,995.00',
@@ -212,7 +212,7 @@ const Watchs = () => {
     },
     {
       id: 26,
-      imageSrc: 'public/Fastract/watches/Latest Elegant Watches.jpg',
+      imageSrc: 'Fastract/watches/Latest Elegant Watches.jpg',
       title: 'Titan | Fastract Elegant',
       description: 'Modern Chic Watch',
       price: '₹ 8,795.00',
@@ -220,7 +220,7 @@ const Watchs = () => {
     },
     {
       id: 27,
-      imageSrc: 'public/Fastract/watches/Floral Strap Round Pointer Quartz Watch.jpg',
+      imageSrc: 'Fastract/watches/Floral Strap Round Pointer Quartz Watch.jpg',
       title: 'Titan | Fastract Floral',
       description: 'Floral Design Watch',
       price: '₹ 7,495.00',
@@ -228,7 +228,7 @@ const Watchs = () => {
     },
     {
       id: 28,
-      imageSrc: 'public/Fastract/watches/download (10).jpg',
+      imageSrc: 'Fastract/watches/download (10).jpg',
       title: 'Titan | Fastract Sport',
       description: 'Active Lifestyle Watch',
       price: '₹ 9,295.00',
@@ -236,7 +236,7 @@ const Watchs = () => {
     },
     {
       id: 29,
-      imageSrc: 'public/Fastract/watches/download (11).jpg',
+      imageSrc: 'Fastract/watches/download (11).jpg',
       title: 'Titan | Fastract Classic',
       description: 'Timeless Design Watch',
       price: '₹ 10,495.00',
@@ -244,7 +244,7 @@ const Watchs = () => {
     },
     {
       id: 30,
-      imageSrc: 'public/Fastract/watches/download (12).jpg',
+      imageSrc: 'Fastract/watches/download (12).jpg',
       title: 'Titan | Fastract Urban',
       description: 'City Style Watch',
       price: '₹ 11,295.00',
@@ -253,7 +253,7 @@ const Watchs = () => {
     // Row 6
     {
       id: 31,
-      imageSrc: 'public/Fastract/watches/download (13).jpg',
+      imageSrc: 'Fastract/watches/download (13).jpg',
       title: 'Titan | Fastract Designer',
       description: 'Fashion Forward Watch',
       price: '₹ 12,995.00',
@@ -261,7 +261,7 @@ const Watchs = () => {
     },
     {
       id: 32,
-      imageSrc: 'public/Fastract/watches/download (14).jpg',
+      imageSrc: 'Fastract/watches/download (14).jpg',
       title: 'Titan | Fastract Executive',
       description: 'Professional Watch',
       price: '₹ 13,495.00',
@@ -269,7 +269,7 @@ const Watchs = () => {
     },
     {
       id: 33,
-      imageSrc: 'public/Fastract/watches/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png',
+      imageSrc: 'Fastract/watches/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png',
       title: 'Titan | Fastract G-Shock Metal',
       description: 'Rugged Sport Smartwatch',
       price: '₹ 14,995.00',
@@ -277,7 +277,7 @@ const Watchs = () => {
     },
     {
       id: 34,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png',
       title: 'Titan | Fastract Pantone Blue',
       description: 'Automatic Fashion Watch',
       price: '₹ 12,495.00',
@@ -285,7 +285,7 @@ const Watchs = () => {
     },
     {
       id: 35,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png',
       title: 'Titan | Fastract Pantone Green',
       description: 'Colorful Automatic Watch',
       price: '₹ 12,495.00',
@@ -293,7 +293,7 @@ const Watchs = () => {
     },
     {
       id: 36,
-      imageSrc: 'public/Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png',
+      imageSrc: 'Fastract/watches/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png',
       title: 'Titan | Fastract Pantone Pink',
       description: 'Vibrant Automatic Watch',
       price: '₹ 12,495.00',

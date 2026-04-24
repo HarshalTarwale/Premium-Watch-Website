@@ -23,6 +23,7 @@ const NewCard = ({
   className = '' 
 }) => {
   const navigate = useNavigate()
+  const baseUrl = import.meta.env.BASE_URL
 
   const handleClick = () => {
     if (navigateTo) {
@@ -38,7 +39,7 @@ const NewCard = ({
       {/* Image container with overflow hidden for rounded corners */}
       <div className='absolute inset-0 overflow-hidden rounded-[13px]'>
         <img 
-          src={imageSrc} 
+          src={`${baseUrl}${imageSrc}`}
           alt={alt}
           className='w-full h-full object-cover pointer-events-none'
         />

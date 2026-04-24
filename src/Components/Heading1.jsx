@@ -3,7 +3,7 @@ import React from 'react'
 const Heading1 = ({ text, className = '', style = {} }) => {
   const defaultStyle = {
     WebkitTextStroke: '0.5px white',
-    WebkitTextFillColor: 'transparent',
+    color: 'white',
     textShadow: '0px 4px 4px rgba(0,0,0,0.25)',
     ...style
   };

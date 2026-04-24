@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 const HomeGrid = () => {
   const navigate = useNavigate()
+  const baseUrl = import.meta.env.BASE_URL
 
   // Navigation handler for collection cards
   const handleNavigate = (collection) => {
@@ -33,7 +34,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('nebula')}
             >
                 <img 
-                    src='public\Home\Grid Images\nebula.jpg' 
+                    src={`${baseUrl}Home/Grid Images/nebula.jpg`}
                     alt='Nebula Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -49,7 +50,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('smart')}
             >
                 <img 
-                    src='public\Home\Grid Images\smart.jpg' 
+                    src={`${baseUrl}Home/Grid Images/smart.jpg`}
                     alt='Smart Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -65,7 +66,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('fastract')}
             >
                 <img 
-                    src='public\Home\Grid Images\fastract.jpg' 
+                    src={`${baseUrl}Home/Grid Images/fastract.jpg`}
                     alt='Fastract Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -81,7 +82,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('xylys')}
             >
                 <img 
-                    src='public\Home\Grid Images\xylys.jpg' 
+                    src={`${baseUrl}Home/Grid Images/xylys.jpg`}
                     alt='Xylys Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -97,7 +98,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('edge')}
             >
                 <img 
-                    src='public\Home\Grid Images\edge.jpg' 
+                    src={`${baseUrl}Home/Grid Images/edge.jpg`}
                     alt='Edge Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -113,7 +114,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('raga')}
             >
                 <img 
-                    src='public\Home\Grid Images\raga.jpg' 
+                    src={`${baseUrl}Home/Grid Images/raga.jpg`}
                     alt='Raga Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />

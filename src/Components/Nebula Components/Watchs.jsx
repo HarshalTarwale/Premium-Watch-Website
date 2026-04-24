@@ -8,7 +8,7 @@ const Watchs = () => {
     // Row 1
     {
       id: 1,
-      imageSrc: 'public/Nebula/Watches/Classy watch.jpg',
+      imageSrc: 'Nebula/Watches/Classy watch.jpg',
       title: 'Titan | Nebula Classy Dial Quartz',
       description: 'Elegant Strap watch for Women',
       price: '₹ 8,495.00',
@@ -16,7 +16,7 @@ const Watchs = () => {
     },
     {
       id: 2,
-      imageSrc: 'public/Nebula/Watches/Olivia Burton London.jpg',
+      imageSrc: 'Nebula/Watches/Olivia Burton London.jpg',
       title: 'Titan | Nebula London Edition',
       description: 'Premium Leather Strap watch',
       price: '₹ 9,195.00',
@@ -24,7 +24,7 @@ const Watchs = () => {
     },
     {
       id: 3,
-      imageSrc: 'public/Nebula/Watches/Latest Elegant Watches.jpg',
+      imageSrc: 'Nebula/Watches/Latest Elegant Watches.jpg',
       title: 'Titan | Nebula Elegant Series',
       description: 'Modern Design watch for Women',
       price: '₹ 7,895.00',
@@ -32,7 +32,7 @@ const Watchs = () => {
     },
     {
       id: 4,
-      imageSrc: 'public/Nebula/Watches/Floral Strap Round Pointer Quartz Watch.jpg',
+      imageSrc: 'Nebula/Watches/Floral Strap Round Pointer Quartz Watch.jpg',
       title: 'Titan | Nebula Floral Edition',
       description: 'Floral Strap Quartz watch',
       price: '₹ 6,995.00',
@@ -40,7 +40,7 @@ const Watchs = () => {
     },
     {
       id: 5,
-      imageSrc: 'public/Nebula/Watches/Rhinestone Decor Round Pointer Quartz Watch.jpg',
+      imageSrc: 'Nebula/Watches/Rhinestone Decor Round Pointer Quartz Watch.jpg',
       title: 'Titan | Nebula Rhinestone',
       description: 'Rhinestone Decor Quartz watch',
       price: '₹ 8,795.00',
@@ -48,7 +48,7 @@ const Watchs = () => {
     },
     {
       id: 6,
-      imageSrc: 'public/Nebula/Watches/Round Metal Pointer Watch.jpg',
+      imageSrc: 'Nebula/Watches/Round Metal Pointer Watch.jpg',
       title: 'Titan | Nebula Metal Series',
       description: 'Round Metal Pointer watch',
       price: '₹ 7,495.00',
@@ -57,7 +57,7 @@ const Watchs = () => {
     // Row 2
     {
       id: 7,
-      imageSrc: 'public/Nebula/Watches/RELÓGIO MALHA DE AÇO ROSÉ.jpg',
+      imageSrc: 'Nebula/Watches/RELÓGIO MALHA DE AÇO ROSÉ.jpg',
       title: 'Titan | Nebula Rosé Edition',
       description: 'Steel Mesh Strap watch',
       price: '₹ 9,495.00',
@@ -65,7 +65,7 @@ const Watchs = () => {
     },
     {
       id: 8,
-      imageSrc: 'public/Nebula/Watches/visit for more.jpg',
+      imageSrc: 'Nebula/Watches/visit for more.jpg',
       title: 'Titan | Nebula Premium Collection',
       description: 'Luxury Design watch',
       price: '₹ 8,995.00',
@@ -73,7 +73,7 @@ const Watchs = () => {
     },
     {
       id: 9,
-      imageSrc: 'public/Nebula/Watches/download (7).jpg',
+      imageSrc: 'Nebula/Watches/download (7).jpg',
       title: 'Titan | Nebula Classic Series',
       description: 'Timeless Design watch',
       price: '₹ 7,295.00',
@@ -81,7 +81,7 @@ const Watchs = () => {
     },
     {
       id: 10,
-      imageSrc: 'public/Nebula/Watches/download (8).jpg',
+      imageSrc: 'Nebula/Watches/download (8).jpg',
       title: 'Titan | Nebula Sport Edition',
       description: 'Active Lifestyle watch',
       price: '₹ 6,795.00',
@@ -89,7 +89,7 @@ const Watchs = () => {
     },
     {
       id: 11,
-      imageSrc: 'public/Nebula/Watches/download (9).jpg',
+      imageSrc: 'Nebula/Watches/download (9).jpg',
       title: 'Titan | Nebula Minimalist',
       description: 'Simple Elegant watch',
       price: '₹ 7,595.00',
@@ -97,7 +97,7 @@ const Watchs = () => {
     },
     {
       id: 12,
-      imageSrc: 'public/Nebula/Watches/download (10).jpg',
+      imageSrc: 'Nebula/Watches/download (10).jpg',
       title: 'Titan | Nebula Designer Series',
       description: 'Fashion Forward watch',
       price: '₹ 8,295.00',
@@ -106,7 +106,7 @@ const Watchs = () => {
     // Row 3
     {
       id: 13,
-      imageSrc: 'public/Nebula/Watches/download (11).jpg',
+      imageSrc: 'Nebula/Watches/download (11).jpg',
       title: 'Titan | Nebula Chic Collection',
       description: 'Trendy Design watch',
       price: '₹ 7,995.00',
@@ -114,7 +114,7 @@ const Watchs = () => {
     },
     {
       id: 14,
-      imageSrc: 'public/Nebula/Watches/download (12).jpg',
+      imageSrc: 'Nebula/Watches/download (12).jpg',
       title: 'Titan | Nebula Statement',
       description: 'Bold Style watch',
       price: '₹ 8,595.00',
@@ -122,7 +122,7 @@ const Watchs = () => {
     },
     {
       id: 15,
-      imageSrc: 'public/Nebula/Watches/download (13).jpg',
+      imageSrc: 'Nebula/Watches/download (13).jpg',
       title: 'Titan | Nebula Deluxe',
       description: 'Premium Quality watch',
       price: '₹ 9,295.00',
@@ -130,7 +130,7 @@ const Watchs = () => {
     },
     {
       id: 16,
-      imageSrc: 'public/Nebula/Watches/download (14).jpg',
+      imageSrc: 'Nebula/Watches/download (14).jpg',
       title: 'Titan | Nebula Heritage',
       description: 'Classic Timepiece watch',
       price: '₹ 8,895.00',
@@ -138,7 +138,7 @@ const Watchs = () => {
     },
     {
       id: 17,
-      imageSrc: 'public/Nebula/Watches/Classy watch.jpg',
+      imageSrc: 'Nebula/Watches/Classy watch.jpg',
       title: 'Titan | Nebula Classy Dial Quartz',
       description: 'Elegant Strap watch for Women',
       price: '₹ 8,495.00',
@@ -146,7 +146,7 @@ const Watchs = () => {
     },
     {
       id: 18,
-      imageSrc: 'public/Nebula/Watches/Olivia Burton London.jpg',
+      imageSrc: 'Nebula/Watches/Olivia Burton London.jpg',
       title: 'Titan | Nebula London Edition',
       description: 'Premium Leather Strap watch',
       price: '₹ 9,195.00',
@@ -155,7 +155,7 @@ const Watchs = () => {
     // Row 4
     {
       id: 19,
-      imageSrc: 'public/Nebula/Watches/Latest Elegant Watches.jpg',
+      imageSrc: 'Nebula/Watches/Latest Elegant Watches.jpg',
       title: 'Titan | Nebula Elegant Series',
       description: 'Modern Design watch for Women',
       price: '₹ 7,895.00',
@@ -163,7 +163,7 @@ const Watchs = () => {
     },
     {
       id: 20,
-      imageSrc: 'public/Nebula/Watches/Floral Strap Round Pointer Quartz Watch.jpg',
+      imageSrc: 'Nebula/Watches/Floral Strap Round Pointer Quartz Watch.jpg',
       title: 'Titan | Nebula Floral Edition',
       description: 'Floral Strap Quartz watch',
       price: '₹ 6,995.00',
@@ -171,7 +171,7 @@ const Watchs = () => {
     },
     {
       id: 21,
-      imageSrc: 'public/Nebula/Watches/Rhinestone Decor Round Pointer Quartz Watch.jpg',
+      imageSrc: 'Nebula/Watches/Rhinestone Decor Round Pointer Quartz Watch.jpg',
       title: 'Titan | Nebula Rhinestone',
       description: 'Rhinestone Decor Quartz watch',
       price: '₹ 8,795.00',
@@ -179,7 +179,7 @@ const Watchs = () => {
     },
     {
       id: 22,
-      imageSrc: 'public/Nebula/Watches/Round Metal Pointer Watch.jpg',
+      imageSrc: 'Nebula/Watches/Round Metal Pointer Watch.jpg',
       title: 'Titan | Nebula Metal Series',
       description: 'Round Metal Pointer watch',
       price: '₹ 7,495.00',
@@ -187,7 +187,7 @@ const Watchs = () => {
     },
     {
       id: 23,
-      imageSrc: 'public/Nebula/Watches/RELÓGIO MALHA DE AÇO ROSÉ.jpg',
+      imageSrc: 'Nebula/Watches/RELÓGIO MALHA DE AÇO ROSÉ.jpg',
       title: 'Titan | Nebula Rosé Edition',
       description: 'Steel Mesh Strap watch',
       price: '₹ 9,495.00',
@@ -195,7 +195,7 @@ const Watchs = () => {
     },
     {
       id: 24,
-      imageSrc: 'public/Nebula/Watches/visit for more.jpg',
+      imageSrc: 'Nebula/Watches/visit for more.jpg',
       title: 'Titan | Nebula Premium Collection',
       description: 'Luxury Design watch',
       price: '₹ 8,995.00',
@@ -204,7 +204,7 @@ const Watchs = () => {
     // Row 5
     {
       id: 25,
-      imageSrc: 'public/Nebula/Watches/download (7).jpg',
+      imageSrc: 'Nebula/Watches/download (7).jpg',
       title: 'Titan | Nebula Classic Series',
       description: 'Timeless Design watch',
       price: '₹ 7,295.00',
@@ -212,7 +212,7 @@ const Watchs = () => {
     },
     {
       id: 26,
-      imageSrc: 'public/Nebula/Watches/download (8).jpg',
+      imageSrc: 'Nebula/Watches/download (8).jpg',
       title: 'Titan | Nebula Sport Edition',
       description: 'Active Lifestyle watch',
       price: '₹ 6,795.00',
@@ -220,7 +220,7 @@ const Watchs = () => {
     },
     {
       id: 27,
-      imageSrc: 'public/Nebula/Watches/download (9).jpg',
+      imageSrc: 'Nebula/Watches/download (9).jpg',
       title: 'Titan | Nebula Minimalist',
       description: 'Simple Elegant watch',
       price: '₹ 7,595.00',
@@ -228,7 +228,7 @@ const Watchs = () => {
     },
     {
       id: 28,
-      imageSrc: 'public/Nebula/Watches/download (10).jpg',
+      imageSrc: 'Nebula/Watches/download (10).jpg',
       title: 'Titan | Nebula Designer Series',
       description: 'Fashion Forward watch',
       price: '₹ 8,295.00',
@@ -236,7 +236,7 @@ const Watchs = () => {
     },
     {
       id: 29,
-      imageSrc: 'public/Nebula/Watches/download (11).jpg',
+      imageSrc: 'Nebula/Watches/download (11).jpg',
       title: 'Titan | Nebula Chic Collection',
       description: 'Trendy Design watch',
       price: '₹ 7,995.00',
@@ -244,7 +244,7 @@ const Watchs = () => {
     },
     {
       id: 30,
-      imageSrc: 'public/Nebula/Watches/download (12).jpg',
+      imageSrc: 'Nebula/Watches/download (12).jpg',
       title: 'Titan | Nebula Statement',
       description: 'Bold Style watch',
       price: '₹ 8,595.00',
@@ -253,7 +253,7 @@ const Watchs = () => {
     // Row 6
     {
       id: 31,
-      imageSrc: 'public/Nebula/Watches/download (13).jpg',
+      imageSrc: 'Nebula/Watches/download (13).jpg',
       title: 'Titan | Nebula Deluxe',
       description: 'Premium Quality watch',
       price: '₹ 9,295.00',
@@ -261,7 +261,7 @@ const Watchs = () => {
     },
     {
       id: 32,
-      imageSrc: 'public/Nebula/Watches/download (14).jpg',
+      imageSrc: 'Nebula/Watches/download (14).jpg',
       title: 'Titan | Nebula Heritage',
       description: 'Classic Timepiece watch',
       price: '₹ 8,895.00',
@@ -269,7 +269,7 @@ const Watchs = () => {
     },
     {
       id: 33,
-      imageSrc: 'public/Nebula/Watches/Classy watch.jpg',
+      imageSrc: 'Nebula/Watches/Classy watch.jpg',
       title: 'Titan | Nebula Classy Dial Quartz',
       description: 'Elegant Strap watch for Women',
       price: '₹ 8,495.00',
@@ -277,7 +277,7 @@ const Watchs = () => {
     },
     {
       id: 34,
-      imageSrc: 'public/Nebula/Watches/Olivia Burton London.jpg',
+      imageSrc: 'Nebula/Watches/Olivia Burton London.jpg',
       title: 'Titan | Nebula London Edition',
       description: 'Premium Leather Strap watch',
       price: '₹ 9,195.00',
@@ -285,7 +285,7 @@ const Watchs = () => {
     },
     {
       id: 35,
-      imageSrc: 'public/Nebula/Watches/Latest Elegant Watches.jpg',
+      imageSrc: 'Nebula/Watches/Latest Elegant Watches.jpg',
       title: 'Titan | Nebula Elegant Series',
       description: 'Modern Design watch for Women',
       price: '₹ 7,895.00',
@@ -293,7 +293,7 @@ const Watchs = () => {
     },
     {
       id: 36,
-      imageSrc: 'public/Nebula/Watches/Floral Strap Round Pointer Quartz Watch.jpg',
+      imageSrc: 'Nebula/Watches/Floral Strap Round Pointer Quartz Watch.jpg',
       title: 'Titan | Nebula Floral Edition',
       description: 'Floral Strap Quartz watch',
       price: '₹ 6,995.00',

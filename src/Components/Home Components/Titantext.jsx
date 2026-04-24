@@ -55,7 +55,7 @@ const Titantext = () => {
             className='w-full h-auto max-h-full '
           >
             {/* 🎨 EDIT: Video source path */}
-            <source src='public\Home\VN20260208_020042.mp4' type="video/mp4" />
+            <source src={`${import.meta.env.BASE_URL}Home/VN20260208_020042.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

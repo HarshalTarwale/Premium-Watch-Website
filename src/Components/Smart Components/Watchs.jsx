@@ -8,7 +8,7 @@ const Watchs = () => {
     // Row 1
     {
       id: 1,
-      imageSrc: 'public/Smart/Watches/Apple ultra.jpg',
+      imageSrc: 'Smart/Watches/Apple ultra.jpg',
       title: 'Titan | Smart Watch Ultra',
       description: 'Premium Fitness Smartwatch',
       price: '₹ 12,495.00',
@@ -16,7 +16,7 @@ const Watchs = () => {
     },
     {
       id: 2,
-      imageSrc: 'public/Smart/Watches/Apple watch 2023.jpg',
+      imageSrc: 'Smart/Watches/Apple watch 2023.jpg',
       title: 'Titan | Smart Watch Series',
       description: 'Latest Generation Smartwatch',
       price: '₹ 14,995.00',
@@ -24,7 +24,7 @@ const Watchs = () => {
     },
     {
       id: 3,
-      imageSrc: 'public/Smart/Watches/Apple Watch Silicone Bands by Apple Watch Bands.jpg',
+      imageSrc: 'Smart/Watches/Apple Watch Silicone Bands by Apple Watch Bands.jpg',
       title: 'Titan | Smart Watch Sport',
       description: 'Silicone Band Smartwatch',
       price: '₹ 9,795.00',
@@ -32,7 +32,7 @@ const Watchs = () => {
     },
     {
       id: 4,
-      imageSrc: 'public/Smart/Watches/Incoming call waterproof sports watch - Black.jpg',
+      imageSrc: 'Smart/Watches/Incoming call waterproof sports watch - Black.jpg',
       title: 'Titan | Smart Watch Waterproof',
       description: 'Sports Fitness Tracker',
       price: '₹ 8,995.00',
@@ -40,7 +40,7 @@ const Watchs = () => {
     },
     {
       id: 5,
-      imageSrc: 'public/Smart/Watches/Katapult Design — (via (349) Pinterest).jpg',
+      imageSrc: 'Smart/Watches/Katapult Design — (via (349) Pinterest).jpg',
       title: 'Titan | Smart Watch Designer',
       description: 'Minimalist Design Smartwatch',
       price: '₹ 11,295.00',
@@ -48,7 +48,7 @@ const Watchs = () => {
     },
     {
       id: 6,
-      imageSrc: 'public/Smart/Watches/Nava Bands (1).jpg',
+      imageSrc: 'Smart/Watches/Nava Bands (1).jpg',
       title: 'Titan | Smart Watch Nava',
       description: 'Premium Band Smartwatch',
       price: '₹ 10,495.00',
@@ -57,7 +57,7 @@ const Watchs = () => {
     // Row 2
     {
       id: 7,
-      imageSrc: 'public/Smart/Watches/Nava Bands.jpg',
+      imageSrc: 'Smart/Watches/Nava Bands.jpg',
       title: 'Titan | Smart Watch Nava Pro',
       description: 'Advanced Fitness Tracker',
       price: '₹ 10,795.00',
@@ -65,7 +65,7 @@ const Watchs = () => {
     },
     {
       id: 8,
-      imageSrc: 'public/Smart/Watches/new skagen falster smartwatch minimizes style and maximizes technology.jpg',
+      imageSrc: 'Smart/Watches/new skagen falster smartwatch minimizes style and maximizes technology.jpg',
       title: 'Titan | Smart Watch Falster',
       description: 'Stylish Tech Smartwatch',
       price: '₹ 13,295.00',
@@ -73,7 +73,7 @@ const Watchs = () => {
     },
     {
       id: 9,
-      imageSrc: 'public/Smart/Watches/Shadow Clock App for AndroidWear – Design by Craig Ward.jpg',
+      imageSrc: 'Smart/Watches/Shadow Clock App for AndroidWear – Design by Craig Ward.jpg',
       title: 'Titan | Smart Watch Shadow',
       description: 'Android Wear Smartwatch',
       price: '₹ 9,995.00',
@@ -81,7 +81,7 @@ const Watchs = () => {
     },
     {
       id: 10,
-      imageSrc: 'public/Smart/Watches/Skagen minimal smartwatch made without _unnecessary complications_.jpg',
+      imageSrc: 'Smart/Watches/Skagen minimal smartwatch made without _unnecessary complications_.jpg',
       title: 'Titan | Smart Watch Minimal',
       description: 'Clean Design Smartwatch',
       price: '₹ 11,795.00',
@@ -89,7 +89,7 @@ const Watchs = () => {
     },
     {
       id: 11,
-      imageSrc: 'public/Smart/Watches/STERNGLAS Bauhaus watches – designed in Hamburg.jpg',
+      imageSrc: 'Smart/Watches/STERNGLAS Bauhaus watches – designed in Hamburg.jpg',
       title: 'Titan | Smart Watch Bauhaus',
       description: 'German Design Smartwatch',
       price: '₹ 12,995.00',
@@ -97,7 +97,7 @@ const Watchs = () => {
     },
     {
       id: 12,
-      imageSrc: 'public/Smart/Watches/download (7).jpg',
+      imageSrc: 'Smart/Watches/download (7).jpg',
       title: 'Titan | Smart Watch Classic',
       description: 'Traditional Style Smartwatch',
       price: '₹ 8,495.00',
@@ -106,7 +106,7 @@ const Watchs = () => {
     // Row 3
     {
       id: 13,
-      imageSrc: 'public/Smart/Watches/download (8).jpg',
+      imageSrc: 'Smart/Watches/download (8).jpg',
       title: 'Titan | Smart Watch Essential',
       description: 'Everyday Smartwatch',
       price: '₹ 7,995.00',
@@ -114,7 +114,7 @@ const Watchs = () => {
     },
     {
       id: 14,
-      imageSrc: 'public/Smart/Watches/52ca8f09-7c1f-4188-b9b4-58d126c04597.jpg',
+      imageSrc: 'Smart/Watches/52ca8f09-7c1f-4188-b9b4-58d126c04597.jpg',
       title: 'Titan | Smart Watch Active',
       description: 'Activity Tracking Smartwatch',
       price: '₹ 9,495.00',
@@ -122,7 +122,7 @@ const Watchs = () => {
     },
     {
       id: 15,
-      imageSrc: 'public/Smart/Watches/a45a3505-aa2e-49b3-8536-0dabad7f1b72.jpg',
+      imageSrc: 'Smart/Watches/a45a3505-aa2e-49b3-8536-0dabad7f1b72.jpg',
       title: 'Titan | Smart Watch Elite',
       description: 'Premium Tech Smartwatch',
       price: '₹ 13,795.00',
@@ -130,7 +130,7 @@ const Watchs = () => {
     },
     {
       id: 16,
-      imageSrc: 'public/Smart/Watches/Apple ultra.jpg',
+      imageSrc: 'Smart/Watches/Apple ultra.jpg',
       title: 'Titan | Smart Watch Ultra',
       description: 'Premium Fitness Smartwatch',
       price: '₹ 12,495.00',
@@ -138,7 +138,7 @@ const Watchs = () => {
     },
     {
       id: 17,
-      imageSrc: 'public/Smart/Watches/Apple watch 2023.jpg',
+      imageSrc: 'Smart/Watches/Apple watch 2023.jpg',
       title: 'Titan | Smart Watch Series',
       description: 'Latest Generation Smartwatch',
       price: '₹ 14,995.00',
@@ -146,7 +146,7 @@ const Watchs = () => {
     },
     {
       id: 18,
-      imageSrc: 'public/Smart/Watches/Apple Watch Silicone Bands by Apple Watch Bands.jpg',
+      imageSrc: 'Smart/Watches/Apple Watch Silicone Bands by Apple Watch Bands.jpg',
       title: 'Titan | Smart Watch Sport',
       description: 'Silicone Band Smartwatch',
       price: '₹ 9,795.00',
@@ -155,7 +155,7 @@ const Watchs = () => {
     // Row 4
     {
       id: 19,
-      imageSrc: 'public/Smart/Watches/Incoming call waterproof sports watch - Black.jpg',
+      imageSrc: 'Smart/Watches/Incoming call waterproof sports watch - Black.jpg',
       title: 'Titan | Smart Watch Waterproof',
       description: 'Sports Fitness Tracker',
       price: '₹ 8,995.00',
@@ -163,7 +163,7 @@ const Watchs = () => {
     },
     {
       id: 20,
-      imageSrc: 'public/Smart/Watches/Katapult Design — (via (349) Pinterest).jpg',
+      imageSrc: 'Smart/Watches/Katapult Design — (via (349) Pinterest).jpg',
       title: 'Titan | Smart Watch Designer',
       description: 'Minimalist Design Smartwatch',
       price: '₹ 11,295.00',
@@ -171,7 +171,7 @@ const Watchs = () => {
     },
     {
       id: 21,
-      imageSrc: 'public/Smart/Watches/Nava Bands (1).jpg',
+      imageSrc: 'Smart/Watches/Nava Bands (1).jpg',
       title: 'Titan | Smart Watch Nava',
       description: 'Premium Band Smartwatch',
       price: '₹ 10,495.00',
@@ -179,7 +179,7 @@ const Watchs = () => {
     },
     {
       id: 22,
-      imageSrc: 'public/Smart/Watches/Nava Bands.jpg',
+      imageSrc: 'Smart/Watches/Nava Bands.jpg',
       title: 'Titan | Smart Watch Nava Pro',
       description: 'Advanced Fitness Tracker',
       price: '₹ 10,795.00',
@@ -187,7 +187,7 @@ const Watchs = () => {
     },
     {
       id: 23,
-      imageSrc: 'public/Smart/Watches/new skagen falster smartwatch minimizes style and maximizes technology.jpg',
+      imageSrc: 'Smart/Watches/new skagen falster smartwatch minimizes style and maximizes technology.jpg',
       title: 'Titan | Smart Watch Falster',
       description: 'Stylish Tech Smartwatch',
       price: '₹ 13,295.00',
@@ -195,7 +195,7 @@ const Watchs = () => {
     },
     {
       id: 24,
-      imageSrc: 'public/Smart/Watches/Shadow Clock App for AndroidWear – Design by Craig Ward.jpg',
+      imageSrc: 'Smart/Watches/Shadow Clock App for AndroidWear – Design by Craig Ward.jpg',
       title: 'Titan | Smart Watch Shadow',
       description: 'Android Wear Smartwatch',
       price: '₹ 9,995.00',
@@ -204,7 +204,7 @@ const Watchs = () => {
     // Row 5
     {
       id: 25,
-      imageSrc: 'public/Smart/Watches/Skagen minimal smartwatch made without _unnecessary complications_.jpg',
+      imageSrc: 'Smart/Watches/Skagen minimal smartwatch made without _unnecessary complications_.jpg',
       title: 'Titan | Smart Watch Minimal',
       description: 'Clean Design Smartwatch',
       price: '₹ 11,795.00',
@@ -212,7 +212,7 @@ const Watchs = () => {
     },
     {
       id: 26,
-      imageSrc: 'public/Smart/Watches/STERNGLAS Bauhaus watches – designed in Hamburg.jpg',
+      imageSrc: 'Smart/Watches/STERNGLAS Bauhaus watches – designed in Hamburg.jpg',
       title: 'Titan | Smart Watch Bauhaus',
       description: 'German Design Smartwatch',
       price: '₹ 12,995.00',
@@ -220,7 +220,7 @@ const Watchs = () => {
     },
     {
       id: 27,
-      imageSrc: 'public/Smart/Watches/download (7).jpg',
+      imageSrc: 'Smart/Watches/download (7).jpg',
       title: 'Titan | Smart Watch Classic',
       description: 'Traditional Style Smartwatch',
       price: '₹ 8,495.00',
@@ -228,7 +228,7 @@ const Watchs = () => {
     },
     {
       id: 28,
-      imageSrc: 'public/Smart/Watches/download (8).jpg',
+      imageSrc: 'Smart/Watches/download (8).jpg',
       title: 'Titan | Smart Watch Essential',
       description: 'Everyday Smartwatch',
       price: '₹ 7,995.00',
@@ -236,7 +236,7 @@ const Watchs = () => {
     },
     {
       id: 29,
-      imageSrc: 'public/Smart/Watches/52ca8f09-7c1f-4188-b9b4-58d126c04597.jpg',
+      imageSrc: 'Smart/Watches/52ca8f09-7c1f-4188-b9b4-58d126c04597.jpg',
       title: 'Titan | Smart Watch Active',
       description: 'Activity Tracking Smartwatch',
       price: '₹ 9,495.00',
@@ -244,7 +244,7 @@ const Watchs = () => {
     },
     {
       id: 30,
-      imageSrc: 'public/Smart/Watches/a45a3505-aa2e-49b3-8536-0dabad7f1b72.jpg',
+      imageSrc: 'Smart/Watches/a45a3505-aa2e-49b3-8536-0dabad7f1b72.jpg',
       title: 'Titan | Smart Watch Elite',
       description: 'Premium Tech Smartwatch',
       price: '₹ 13,795.00',
@@ -253,7 +253,7 @@ const Watchs = () => {
     // Row 6
     {
       id: 31,
-      imageSrc: 'public/Smart/Watches/Apple ultra.jpg',
+      imageSrc: 'Smart/Watches/Apple ultra.jpg',
       title: 'Titan | Smart Watch Ultra',
       description: 'Premium Fitness Smartwatch',
       price: '₹ 12,495.00',
@@ -261,7 +261,7 @@ const Watchs = () => {
     },
     {
       id: 32,
-      imageSrc: 'public/Smart/Watches/Apple watch 2023.jpg',
+      imageSrc: 'Smart/Watches/Apple watch 2023.jpg',
       title: 'Titan | Smart Watch Series',
       description: 'Latest Generation Smartwatch',
       price: '₹ 14,995.00',
@@ -269,7 +269,7 @@ const Watchs = () => {
     },
     {
       id: 33,
-      imageSrc: 'public/Smart/Watches/Apple Watch Silicone Bands by Apple Watch Bands.jpg',
+      imageSrc: 'Smart/Watches/Apple Watch Silicone Bands by Apple Watch Bands.jpg',
       title: 'Titan | Smart Watch Sport',
       description: 'Silicone Band Smartwatch',
       price: '₹ 9,795.00',
@@ -277,7 +277,7 @@ const Watchs = () => {
     },
     {
       id: 34,
-      imageSrc: 'public/Smart/Watches/Incoming call waterproof sports watch - Black.jpg',
+      imageSrc: 'Smart/Watches/Incoming call waterproof sports watch - Black.jpg',
       title: 'Titan | Smart Watch Waterproof',
       description: 'Sports Fitness Tracker',
       price: '₹ 8,995.00',
@@ -285,7 +285,7 @@ const Watchs = () => {
     },
     {
       id: 35,
-      imageSrc: 'public/Smart/Watches/Katapult Design — (via (349) Pinterest).jpg',
+      imageSrc: 'Smart/Watches/Katapult Design — (via (349) Pinterest).jpg',
       title: 'Titan | Smart Watch Designer',
       description: 'Minimalist Design Smartwatch',
       price: '₹ 11,295.00',
@@ -293,7 +293,7 @@ const Watchs = () => {
     },
     {
       id: 36,
-      imageSrc: 'public/Smart/Watches/Nava Bands (1).jpg',
+      imageSrc: 'Smart/Watches/Nava Bands (1).jpg',
       title: 'Titan | Smart Watch Nava',
       description: 'Premium Band Smartwatch',
       price: '₹ 10,495.00',

@@ -47,7 +47,7 @@ const WatchCatalog = ({
     // Row 1
     {
       id: 1,
-      imageSrc: 'public/Edge/Watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
+      imageSrc: 'Edge/Watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -55,7 +55,7 @@ const WatchCatalog = ({
     },
     {
       id: 2,
-      imageSrc: 'public/Edge/Watches/download (14).jpg',
+      imageSrc: 'Edge/Watches/download (14).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -63,7 +63,7 @@ const WatchCatalog = ({
     },
     {
       id: 3,
-      imageSrc: 'public/Edge/Watches/Product Photography.jpg',
+      imageSrc: 'Edge/Watches/Product Photography.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -71,7 +71,7 @@ const WatchCatalog = ({
     },
     {
       id: 4,
-      imageSrc: 'public/Edge/Watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
+      imageSrc: 'Edge/Watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -79,7 +79,7 @@ const WatchCatalog = ({
     },
     {
       id: 5,
-      imageSrc: 'public/Edge/Watches/IWC Pilot Watch Chronograph.jpg',
+      imageSrc: 'Edge/Watches/IWC Pilot Watch Chronograph.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -87,7 +87,7 @@ const WatchCatalog = ({
     },
     {
       id: 6,
-      imageSrc: 'public/Edge/Watches/download (17).jpg',
+      imageSrc: 'Edge/Watches/download (17).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -96,7 +96,7 @@ const WatchCatalog = ({
     // Row 2
     {
       id: 7,
-      imageSrc: 'public/Edge/Watches/download (16).jpg',
+      imageSrc: 'Edge/Watches/download (16).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -104,7 +104,7 @@ const WatchCatalog = ({
     },
     {
       id: 8,
-      imageSrc: 'public/Edge/Watches/download (15).jpg',
+      imageSrc: 'Edge/Watches/download (15).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -112,7 +112,7 @@ const WatchCatalog = ({
     },
     {
       id: 9,
-      imageSrc: 'public/Edge/Watches/download (13).jpg',
+      imageSrc: 'Edge/Watches/download (13).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -120,7 +120,7 @@ const WatchCatalog = ({
     },
     {
       id: 10,
-      imageSrc: 'public/Edge/Watches/download (12).jpg',
+      imageSrc: 'Edge/Watches/download (12).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -128,7 +128,7 @@ const WatchCatalog = ({
     },
     {
       id: 11,
-      imageSrc: 'public/Edge/Watches/download (11).jpg',
+      imageSrc: 'Edge/Watches/download (11).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -136,7 +136,7 @@ const WatchCatalog = ({
     },
     {
       id: 12,
-      imageSrc: 'public/Edge/Watches/Rolex Milgauss.jpg',
+      imageSrc: 'Edge/Watches/Rolex Milgauss.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -145,7 +145,7 @@ const WatchCatalog = ({
     // Row 3
     {
       id: 13,
-      imageSrc: 'public/Edge/Watches/download (10).jpg',
+      imageSrc: 'Edge/Watches/download (10).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -153,7 +153,7 @@ const WatchCatalog = ({
     },
     {
       id: 14,
-      imageSrc: 'public/Edge/Watches/Cartier ❤.jpg',
+      imageSrc: 'Edge/Watches/Cartier ❤.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -161,7 +161,7 @@ const WatchCatalog = ({
     },
     {
       id: 15,
-      imageSrc: 'public/Edge/Watches/Brew Watch Co_.jpg',
+      imageSrc: 'Edge/Watches/Brew Watch Co_.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -169,7 +169,7 @@ const WatchCatalog = ({
     },
     {
       id: 16,
-      imageSrc: 'public/Edge/Watches/AARK Collective _ Unique Designs for Timeless Moments.jpg',
+      imageSrc: 'Edge/Watches/AARK Collective _ Unique Designs for Timeless Moments.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -177,7 +177,7 @@ const WatchCatalog = ({
     },
     {
       id: 17,
-      imageSrc: 'public/Edge/Watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
+      imageSrc: 'Edge/Watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -185,7 +185,7 @@ const WatchCatalog = ({
     },
     {
       id: 18,
-      imageSrc: 'public/Edge/Watches/download (14).jpg',
+      imageSrc: 'Edge/Watches/download (14).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -194,7 +194,7 @@ const WatchCatalog = ({
     // Row 4
     {
       id: 19,
-      imageSrc: 'public/Edge/Watches/Product Photography.jpg',
+      imageSrc: 'Edge/Watches/Product Photography.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -202,7 +202,7 @@ const WatchCatalog = ({
     },
     {
       id: 20,
-      imageSrc: 'public/Edge/Watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
+      imageSrc: 'Edge/Watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -210,7 +210,7 @@ const WatchCatalog = ({
     },
     {
       id: 21,
-      imageSrc: 'public/Edge/Watches/IWC Pilot Watch Chronograph.jpg',
+      imageSrc: 'Edge/Watches/IWC Pilot Watch Chronograph.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -218,7 +218,7 @@ const WatchCatalog = ({
     },
     {
       id: 22,
-      imageSrc: 'public/Edge/Watches/download (17).jpg',
+      imageSrc: 'Edge/Watches/download (17).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -226,7 +226,7 @@ const WatchCatalog = ({
     },
     {
       id: 23,
-      imageSrc: 'public/Edge/Watches/download (16).jpg',
+      imageSrc: 'Edge/Watches/download (16).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -234,7 +234,7 @@ const WatchCatalog = ({
     },
     {
       id: 24,
-      imageSrc: 'public/Edge/Watches/download (15).jpg',
+      imageSrc: 'Edge/Watches/download (15).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -243,7 +243,7 @@ const WatchCatalog = ({
     // Row 5
     {
       id: 25,
-      imageSrc: 'public/Edge/Watches/download (13).jpg',
+      imageSrc: 'Edge/Watches/download (13).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -251,7 +251,7 @@ const WatchCatalog = ({
     },
     {
       id: 26,
-      imageSrc: 'public/Edge/Watches/download (12).jpg',
+      imageSrc: 'Edge/Watches/download (12).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -259,7 +259,7 @@ const WatchCatalog = ({
     },
     {
       id: 27,
-      imageSrc: 'public/Edge/Watches/download (11).jpg',
+      imageSrc: 'Edge/Watches/download (11).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -267,7 +267,7 @@ const WatchCatalog = ({
     },
     {
       id: 28,
-      imageSrc: 'public/Edge/Watches/Rolex Milgauss.jpg',
+      imageSrc: 'Edge/Watches/Rolex Milgauss.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -275,7 +275,7 @@ const WatchCatalog = ({
     },
     {
       id: 29,
-      imageSrc: 'public/Edge/Watches/download (10).jpg',
+      imageSrc: 'Edge/Watches/download (10).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -283,7 +283,7 @@ const WatchCatalog = ({
     },
     {
       id: 30,
-      imageSrc: 'public/Edge/Watches/Cartier ❤.jpg',
+      imageSrc: 'Edge/Watches/Cartier ❤.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -292,7 +292,7 @@ const WatchCatalog = ({
     // Row 6
     {
       id: 31,
-      imageSrc: 'public/Edge/Watches/Brew Watch Co_.jpg',
+      imageSrc: 'Edge/Watches/Brew Watch Co_.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -300,7 +300,7 @@ const WatchCatalog = ({
     },
     {
       id: 32,
-      imageSrc: 'public/Edge/Watches/AARK Collective _ Unique Designs for Timeless Moments.jpg',
+      imageSrc: 'Edge/Watches/AARK Collective _ Unique Designs for Timeless Moments.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -308,7 +308,7 @@ const WatchCatalog = ({
     },
     {
       id: 33,
-      imageSrc: 'public/Edge/Watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
+      imageSrc: 'Edge/Watches/This Is the Field Watch You Buy When You Outgrow Your Timex.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -316,7 +316,7 @@ const WatchCatalog = ({
     },
     {
       id: 34,
-      imageSrc: 'public/Edge/Watches/download (14).jpg',
+      imageSrc: 'Edge/Watches/download (14).jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -324,7 +324,7 @@ const WatchCatalog = ({
     },
     {
       id: 35,
-      imageSrc: 'public/Edge/Watches/Product Photography.jpg',
+      imageSrc: 'Edge/Watches/Product Photography.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
@@ -332,7 +332,7 @@ const WatchCatalog = ({
     },
     {
       id: 36,
-      imageSrc: 'public/Edge/Watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
+      imageSrc: 'Edge/Watches/Kojima Productions x NASA x Anicorn Watch Brings Space Ludens To Your Wrist.jpg',
       title: 'Titan | Neo Splash Blue Dial Quartz',
       description: 'Steel Strap watch for Men Watch',
       price: '₹ 7,195.00',
