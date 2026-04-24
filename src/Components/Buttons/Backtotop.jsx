@@ -35,7 +35,7 @@ const Backtotop = () => {
           className='fixed flex items-center gap-[2vh] bottom-10 left-1/2 -translate-x-1/2 z-50 bg-white/10 backdrop-blur-md border border-white/30 text-white px-1 pl-4 py-1 rounded-full hover:bg-white/20 transition-all duration-300 zen text-sm shadow-lg hover:scale-105'
           aria-label="Back to top"
         >
-        Back To Top <div className='h-[7vh] w-[7vh] rounded-[1000px] bg-white flex items-center justify-center text-black'><FaArrowUp className='text-[3vh]'/></div>
+        Back To Top <div className='h-[5.5vh] w-[5.5vh] rounded-[1000px] bg-white flex items-center justify-center text-black'><FaArrowUp className='text-[3vh]'/></div>
         </button>
       )}
     </>
