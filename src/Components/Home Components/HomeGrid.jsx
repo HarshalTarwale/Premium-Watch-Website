@@ -5,6 +5,15 @@ const HomeGrid = () => {
   const navigate = useNavigate()
   const baseUrl = import.meta.env.BASE_URL
 
+    const getAssetUrl = (path) => {
+        const normalizedPath = path.replace(/^\/+/, '')
+        const encodedPath = normalizedPath
+            .split('/')
+            .map((segment) => encodeURIComponent(segment))
+            .join('/')
+        return `${baseUrl}${encodedPath}`
+    }
+
   // Navigation handler for collection cards
   const handleNavigate = (collection) => {
     navigate(`/${collection.toLowerCase()}`)
@@ -34,7 +43,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('nebula')}
             >
                 <img 
-                    src={`${baseUrl}Home/Grid Images/nebula.jpg`}
+                    src={getAssetUrl('Home/Grid Images/nebula.jpg')}
                     alt='Nebula Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -50,7 +59,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('smart')}
             >
                 <img 
-                    src={`${baseUrl}Home/Grid Images/smart.jpg`}
+                    src={getAssetUrl('Home/Grid Images/smart.jpg')}
                     alt='Smart Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -66,7 +75,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('fastract')}
             >
                 <img 
-                    src={`${baseUrl}Home/Grid Images/fastract.jpg`}
+                    src={getAssetUrl('Home/Grid Images/fastract.jpg')}
                     alt='Fastract Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -82,7 +91,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('xylys')}
             >
                 <img 
-                    src={`${baseUrl}Home/Grid Images/xylys.jpg`}
+                    src={getAssetUrl('Home/Grid Images/xylys.jpg')}
                     alt='Xylys Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -98,7 +107,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('edge')}
             >
                 <img 
-                    src={`${baseUrl}Home/Grid Images/edge.jpg`}
+                    src={getAssetUrl('Home/Grid Images/edge.jpg')}
                     alt='Edge Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />
@@ -114,7 +123,7 @@ const HomeGrid = () => {
                 onClick={() => handleNavigate('raga')}
             >
                 <img 
-                    src={`${baseUrl}Home/Grid Images/raga.jpg`}
+                    src={getAssetUrl('Home/Grid Images/raga.jpg')}
                     alt='Raga Collection' 
                     className='w-full h-full object-cover rounded-[1.3vh]'
                 />

@@ -24,6 +24,12 @@ const NewCard = ({
 }) => {
   const navigate = useNavigate()
   const baseUrl = import.meta.env.BASE_URL
+  const normalizedPath = imageSrc?.replace(/^\/+/, '') || ''
+  const encodedPath = normalizedPath
+    .split('/')
+    .map((segment) => encodeURIComponent(segment))
+    .join('/')
+  const imageUrl = `${baseUrl}${encodedPath}`
 
   const handleClick = () => {
     if (navigateTo) {
@@ -39,7 +45,7 @@ const NewCard = ({
       {/* Image container with overflow hidden for rounded corners */}
       <div className='absolute inset-0 overflow-hidden rounded-[13px]'>
         <img 
-          src={`${baseUrl}${imageSrc}`}
+          src={imageUrl}
           alt={alt}
           className='w-full h-full object-cover pointer-events-none'
         />

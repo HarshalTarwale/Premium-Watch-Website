@@ -36,6 +36,12 @@ const WatchCard = ({
   starIcon = null 
 }) => {
   const baseUrl = import.meta.env.BASE_URL
+  const normalizedPath = imageSrc?.replace(/^\/+/, '') || ''
+  const encodedPath = normalizedPath
+    .split('/')
+    .map((segment) => encodeURIComponent(segment))
+    .join('/')
+  const imageUrl = `${baseUrl}${encodedPath}`
   
   return (
     // 🎨 Main Card Container - Glass morphism effect with blur and transparency
@@ -49,7 +55,7 @@ const WatchCard = ({
           <img 
             alt={title}
             className="absolute inset-0 w-full h-full object-cover pointer-events-none rounded-[1.03vw]" 
-            src={`${baseUrl}${imageSrc}`}
+            src={imageUrl}
           />
         </div>
         
