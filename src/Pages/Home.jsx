@@ -17,7 +17,7 @@ const Home = () => {
     <div className='bg-black min-h-screen w-full overflow-x-hidden'>
         <Navbar/>
         <Video 
-          src={`${import.meta.env.BASE_URL}public/Home/Presenting Titan Edge Mechanical.mp4`}
+          src={`${import.meta.env.BASE_URL}Home/Presenting Titan Edge Mechanical.mp4`}
         />
         
         {/* Explore Section */}

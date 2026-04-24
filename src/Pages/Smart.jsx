@@ -12,7 +12,7 @@ const Smart = () => {
 
       {/* Video */}
       <Video 
-        src={`${import.meta.env.BASE_URL}public/Smart/From KlickPin CF Pin on Smart Watches.mp4`}
+        src={`${import.meta.env.BASE_URL}Smart/From KlickPin CF Pin on Smart Watches.mp4`}
       />
 
       {/* Watches */}

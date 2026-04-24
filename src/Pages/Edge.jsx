@@ -14,7 +14,7 @@ const Edge = () => {
 
         {/* Videos */}
         <Video 
-          src={`${import.meta.env.BASE_URL}public/Edge/Edge video.mp4`}
+          src={`${import.meta.env.BASE_URL}Edge/Edge video.mp4`}
         />
 
         {/* Watches */}

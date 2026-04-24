@@ -12,7 +12,7 @@ const Nebula = () => {
 
       {/* video */}
       <Video
-        src={`${import.meta.env.BASE_URL}public/Nebula/Hero-section-video.mp4`}/>
+        src={`${import.meta.env.BASE_URL}Nebula/Hero-section-video.mp4`}/>
 
       {/* Watches */}
       <Watchs />

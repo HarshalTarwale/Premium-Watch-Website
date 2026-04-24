@@ -81,28 +81,28 @@ const BestSeller = () => {
                 {/* 🎬 LINE 1 - Cards with stagger animation */}
                 <div ref={line1Ref} className='line1 mt-[5vh] flex justify-center gap-[4vh] w-full'>
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png'} 
+                        imageSrc={'Home/Best sellers/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 
                         rating={'4.5'}
                     />
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/Rolex Sky Dweller 1.png'} 
+                        imageSrc={'Home/Best sellers/Rolex Sky Dweller 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 
                         rating={'4.5'}
                     />
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/Poetry in motion 1.png'} 
+                        imageSrc={'Home/Best sellers/Poetry in motion 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 
                         rating={'4.5'}
                     />
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/Premium Photo _ Man watch mockup without brand in flat photography 1.png'} 
+                        imageSrc={'Home/Best sellers/Premium Photo _ Man watch mockup without brand in flat photography 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 
@@ -112,28 +112,28 @@ const BestSeller = () => {
                 {/* 🎬 LINE 2 - Cards with stagger animation */}
                 <div ref={line2Ref} className='line2 mt-[5vh] flex justify-center gap-[4vh] w-full'>
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png'} 
+                        imageSrc={'Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 
                         rating={'4.5'}
                     />
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png'} 
+                        imageSrc={'Home/Best sellers/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 
                         rating={'4.5'}
                     />
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png'} 
+                        imageSrc={'Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 
                         rating={'4.5'}
                     />
                     <WatchCard 
-                        imageSrc={'public/Home/Best sellers/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png'} 
+                        imageSrc={'Home/Best sellers/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png'} 
                         title={'Titan Neon Analog Watch'} 
                         description={'Steel Strap watch for Men'} 
                         price={'₹ 1,995'} 

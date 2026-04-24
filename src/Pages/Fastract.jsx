@@ -12,7 +12,7 @@ const Fastract = () => {
 
       {/* Video */}
       <Video 
-        src={`${import.meta.env.BASE_URL}public/Fastract/Luxury Watch Ad.mp4`}
+        src={`${import.meta.env.BASE_URL}Fastract/Luxury Watch Ad.mp4`}
       />
 
       {/* Watches */}
