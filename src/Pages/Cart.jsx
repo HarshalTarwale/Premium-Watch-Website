@@ -42,10 +42,10 @@ const Cart = () => {
       <Navbar />
 
       <div className='pt-[16vh] px-[10vw]'>
-        <div className='flex items-end justify-between mb-[4vh]'>
+        {/* <div className='flex items-end justify-between mb-[4vh]'>
           <h1 className='zen text-[4.5vh] tracking-[2px]'>Cart</h1>
           <p className='text-white/60 text-[1.6vh]'>Selected: {totals.selectedCount}</p>
-        </div>
+        </div> */}
 
         <div className='grid grid-cols-1 lg:grid-cols-[1.6fr_0.6fr] gap-[4vw]'>
           <div className='space-y-[3vh]'>
