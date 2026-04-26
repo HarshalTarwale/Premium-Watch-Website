@@ -6,13 +6,16 @@ import Footer from '../Components/Footer.jsx'
 import WatchCard from '../Components/WatchCard.jsx'
 import { fallbackWatch, relatedWatches } from '../data/watchData.js'
 import { addToCart } from '../data/cartStore.js'
+import { addToWishlist, isWishlisted } from '../data/wishlistStore.js'
 
 const WatchDetails = () => {
   const location = useLocation()
   const navigate = useNavigate()
-  const [isWishlisted, setIsWishlisted] = useState(false)
+  const [isWishlistedState, setIsWishlistedState] = useState(false)
 
   const watch = location.state?.watch || fallbackWatch
+  const baseWishlistId = watch.baseId ?? watch.id ?? watch.sku ?? watch.title
+  const wishlistId = watch.imageSrc ? `${baseWishlistId}-${watch.imageSrc}` : baseWishlistId
 
   const mainImageUrl = useMemo(() => {
     const baseUrl = import.meta.env.BASE_URL
@@ -42,6 +45,10 @@ const WatchDetails = () => {
   const handleRelatedClick = (related) => {
     navigate(`/watch/${related.id}`, { state: { watch: related } })
   }
+
+  React.useEffect(() => {
+    setIsWishlistedState(isWishlisted(wishlistId))
+  }, [wishlistId])
 
   return (
     <div className='bg-black min-h-screen w-full text-white'>
@@ -123,11 +130,14 @@ const WatchDetails = () => {
               </button>
               <button
                 type='button'
-                onClick={() => setIsWishlisted((prev) => !prev)}
+                onClick={() => {
+                  addToWishlist(watch)
+                  setIsWishlistedState(true)
+                }}
                 className='w-[6vh] h-[6vh] rounded-full border border-white/30 flex items-center justify-center hover:border-white/60 transition-colors'
-                aria-label='Toggle wishlist'
+                aria-label='Add to wishlist'
               >
-                <span className={`${isWishlisted ? 'text-red-500' : 'text-white'} text-[2.2vh]`}>
+                <span className={`${isWishlistedState ? 'text-red-500' : 'text-white'} text-[2.2vh]`}>
                   ♥
                 </span>
               </button>
