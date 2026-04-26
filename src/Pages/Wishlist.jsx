@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar.jsx'
 import Footer from '../Components/Footer.jsx'
 import WatchCard from '../Components/WatchCard.jsx'
-import { getWishlistItems } from '../data/wishlistStore.js'
+import { getWishlistItems, removeFromWishlist } from '../data/wishlistStore.js'
 
 const Wishlist = () => {
   const [items, setItems] = useState([])
@@ -28,16 +28,36 @@ const Wishlist = () => {
         ) : (
           <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[2vw]'>
             {items.map((item) => (
-              <WatchCard
-                key={item.id}
-                imageSrc={item.imageSrc}
-                title={item.title}
-                description={item.description}
-                price={item.price}
-                rating={item.rating}
-                navigateTo={`/watch/${item.routeId ?? item.id}`}
-                state={{ watch: item }}
-              />
+              <div key={item.id} className='relative'>
+                <button
+                  type='button'
+                  onClick={(event) => {
+                    event.stopPropagation()
+                    setItems(removeFromWishlist(item.id))
+                  }}
+                  className='absolute top-[1vh] left-[1vh] z-10 w-[3vh] h-[3vh] rounded-[8px] border border-white/70 bg-black/50 flex items-center justify-center'
+                  aria-label='Remove from wishlist'
+                >
+                  <img
+                    src={`${import.meta.env.BASE_URL}Icons/bin.png`}
+                    alt='Remove'
+                    className='h-[1.8vh] w-[1.8vh]'
+                    style={{
+                      filter:
+                        'brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(332deg) brightness(104%) contrast(101%)'
+                    }}
+                  />
+                </button>
+                <WatchCard
+                  imageSrc={item.imageSrc}
+                  title={item.title}
+                  description={item.description}
+                  price={item.price}
+                  rating={item.rating}
+                  navigateTo={`/watch/${item.routeId ?? item.id}`}
+                  state={{ watch: item }}
+                />
+              </div>
             ))}
           </div>
         )}

@@ -6,7 +6,7 @@ import Footer from '../Components/Footer.jsx'
 import WatchCard from '../Components/WatchCard.jsx'
 import { fallbackWatch, relatedWatches } from '../data/watchData.js'
 import { addToCart } from '../data/cartStore.js'
-import { addToWishlist, isWishlisted } from '../data/wishlistStore.js'
+import { addToWishlist, isWishlisted, removeFromWishlist } from '../data/wishlistStore.js'
 
 const WatchDetails = () => {
   const location = useLocation()
@@ -131,11 +131,16 @@ const WatchDetails = () => {
               <button
                 type='button'
                 onClick={() => {
+                  if (isWishlistedState) {
+                    removeFromWishlist(wishlistId)
+                    setIsWishlistedState(false)
+                    return
+                  }
                   addToWishlist(watch)
                   setIsWishlistedState(true)
                 }}
                 className='w-[6vh] h-[6vh] rounded-full border border-white/30 flex items-center justify-center hover:border-white/60 transition-colors'
-                aria-label='Add to wishlist'
+                aria-label='Toggle wishlist'
               >
                 <span className={`${isWishlistedState ? 'text-red-500' : 'text-white'} text-[2.2vh]`}>
                   ♥
