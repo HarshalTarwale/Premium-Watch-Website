@@ -5,6 +5,7 @@ import Navbar from '../Components/Navbar.jsx'
 import Footer from '../Components/Footer.jsx'
 import WatchCard from '../Components/WatchCard.jsx'
 import { fallbackWatch, relatedWatches } from '../data/watchData.js'
+import { addToCart } from '../data/cartStore.js'
 
 const WatchDetails = () => {
   const location = useLocation()
@@ -110,12 +111,16 @@ const WatchDetails = () => {
               >
                 Buy Now
               </Link>
-              <Link
-                to='/cart'
+              <button
+                type='button'
+                onClick={() => {
+                  addToCart(watch)
+                  navigate('/cart')
+                }}
                 className='zen border border-white/30 rounded-[999px] px-[4vh] py-[1.7vh] text-[2.4vw] lg:text-[0.9vw] font-semibold hover:border-white/60 transition-colors'
               >
                 Add To Cart
-              </Link>
+              </button>
               <button
                 type='button'
                 onClick={() => setIsWishlisted((prev) => !prev)}
