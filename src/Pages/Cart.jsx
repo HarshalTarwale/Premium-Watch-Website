@@ -113,17 +113,26 @@ const Cart = () => {
                           >
                             +
                           </button>
+                          <button
+                            type='button'
+                            onClick={() => handleRemove(item.id)}
+                            className='w-[3.2vh] h-[3.2vh] rounded-full border border-white/60 flex items-center justify-center hover:border-white'
+                            aria-label='Delete item'
+                          >
+                            <img
+                              src={`${import.meta.env.BASE_URL}Icons/bin.png`}
+                              alt='Delete'
+                              className='h-[1.8vh] w-[1.8vh]'
+                              style={{
+                                filter:
+                                  'brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(332deg) brightness(104%) contrast(101%)'
+                              }}
+                            />
+                          </button>
                         </div>
 
                         <div className='flex items-center gap-[2vh]'>
                           <p className='zen text-[2vh]'>{formatPrice(lineTotal)}</p>
-                          <button
-                            type='button'
-                            onClick={() => handleRemove(item.id)}
-                            className='text-white/60 text-[1.5vh] underline hover:text-white'
-                          >
-                            Delete
-                          </button>
                         </div>
                       </div>
                     </div>
