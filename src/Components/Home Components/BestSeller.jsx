@@ -8,6 +8,72 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const BestSeller = () => {
+  const bestSellerWatches = [
+    {
+      id: 1,
+      imageSrc: 'Home/Best sellers/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    },
+    {
+      id: 2,
+      imageSrc: 'Home/Best sellers/Rolex Sky Dweller 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    },
+    {
+      id: 3,
+      imageSrc: 'Home/Best sellers/Poetry in motion 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    },
+    {
+      id: 4,
+      imageSrc: 'Home/Best sellers/Premium Photo _ Man watch mockup without brand in flat photography 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    },
+    {
+      id: 5,
+      imageSrc: 'Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    },
+    {
+      id: 6,
+      imageSrc: 'Home/Best sellers/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    },
+    {
+      id: 7,
+      imageSrc: 'Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    },
+    {
+      id: 8,
+      imageSrc: 'Home/Best sellers/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png',
+      title: 'Titan Neon Analog Watch',
+      description: 'Steel Strap watch for Men',
+      price: '₹ 1,995',
+      rating: '4.5'
+    }
+  ]
   // Refs for targeting animation elements
   const line1Ref = useRef(null)
   const line2Ref = useRef(null)
@@ -80,65 +146,33 @@ const BestSeller = () => {
             <div className='best-container w-full'>
                 {/* 🎬 LINE 1 - Cards with stagger animation */}
                 <div ref={line1Ref} className='line1 mt-[5vh] flex justify-center gap-[4vh] w-full'>
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
+                  {bestSellerWatches.slice(0, 4).map((watch) => (
+                    <WatchCard
+                    key={watch.id}
+                    imageSrc={watch.imageSrc}
+                    title={watch.title}
+                    description={watch.description}
+                    price={watch.price}
+                    rating={watch.rating}
+                    navigateTo={`/watch/${watch.id}`}
+                    state={{ watch }}
                     />
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/Rolex Sky Dweller 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
-                    />
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/Poetry in motion 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
-                    />
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/Premium Photo _ Man watch mockup without brand in flat photography 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
-                    />
+                  ))}
                 </div>
                 {/* 🎬 LINE 2 - Cards with stagger animation */}
                 <div ref={line2Ref} className='line2 mt-[5vh] flex justify-center gap-[4vh] w-full'>
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89Z 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
+                  {bestSellerWatches.slice(4, 8).map((watch) => (
+                    <WatchCard
+                    key={watch.id}
+                    imageSrc={watch.imageSrc}
+                    title={watch.title}
+                    description={watch.description}
+                    price={watch.price}
+                    rating={watch.rating}
+                    navigateTo={`/watch/${watch.id}`}
+                    state={{ watch }}
                     />
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/CITIZEN X PANTONE Tsuyosa Automatic NJ0158-89Y 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
-                    />
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/CITIZEN X PANTONE tsuyosa Automatic NJ0158-89X 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
-                    />
-                    <WatchCard 
-                        imageSrc={'Home/Best sellers/G-SHOCK CASIOAK FULL METAL TIFFANY 1.png'} 
-                        title={'Titan Neon Analog Watch'} 
-                        description={'Steel Strap watch for Men'} 
-                        price={'₹ 1,995'} 
-                        rating={'4.5'}
-                    />
+                  ))}
                 </div>
             </div>
         </div>

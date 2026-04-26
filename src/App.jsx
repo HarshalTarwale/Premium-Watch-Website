@@ -16,6 +16,8 @@ import Smart from './Pages/Smart.jsx'
 import Xylys from './Pages/Xylys.jsx'
 import Raga from './Pages/Raga.jsx'
 import Fastract from './Pages/Fastract.jsx' 
+import WatchDetails from './Pages/WatchDetails.jsx'
+import Checkout from './Pages/Checkout.jsx'
 
 // Register GSAP ScrollTrigger
 gsap.registerPlugin(ScrollTrigger)
@@ -65,6 +67,8 @@ const App = () => {
         <Route path='/xylys' element={<Xylys />} />
         <Route path='/raga' element={<Raga />} />
         <Route path='/fastract' element={<Fastract />} />
+        <Route path='/watch/:id' element={<WatchDetails />} />
+        <Route path='/checkout' element={<Checkout />} />
       </Routes>
     </Router>
   )

@@ -73,6 +73,8 @@ const AllProducts = () => {
                 description={watch.description}
                 price={watch.price}
                 rating={watch.rating}
+                navigateTo={`/watch/${watch.id}`}
+                state={{ watch }}
               />
             ))}
           </div>
