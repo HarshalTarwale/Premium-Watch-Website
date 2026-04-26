@@ -106,20 +106,20 @@ const WatchDetails = () => {
             <div className='flex items-center gap-[1vw] mt-[3vh]'>
               <Link
                 to='/checkout'
-                className='zen bg-white text-black rounded-[999px] px-[4vh] py-[1.2vh] text-[2.4vw] lg:text-[0.9vw] font-semibold hover:bg-white/90 transition-colors'
+                className='zen bg-white text-black rounded-[999px] px-[4vh] py-[1.7vh] text-[2.4vw] lg:text-[0.9vw] font-semibold hover:bg-white/90 transition-colors'
               >
                 Buy Now
               </Link>
               <Link
                 to='/cart'
-                className='zen border border-white/30 rounded-[999px] px-[4vh] py-[1.2vh] text-[2.4vw] lg:text-[0.9vw] font-semibold hover:border-white/60 transition-colors'
+                className='zen border border-white/30 rounded-[999px] px-[4vh] py-[1.7vh] text-[2.4vw] lg:text-[0.9vw] font-semibold hover:border-white/60 transition-colors'
               >
                 Add To Cart
               </Link>
               <button
                 type='button'
                 onClick={() => setIsWishlisted((prev) => !prev)}
-                className='w-[5vh] h-[5vh] rounded-full border border-white/30 flex items-center justify-center hover:border-white/60 transition-colors'
+                className='w-[6vh] h-[6vh] rounded-full border border-white/30 flex items-center justify-center hover:border-white/60 transition-colors'
                 aria-label='Toggle wishlist'
               >
                 <span className={`${isWishlisted ? 'text-red-500' : 'text-white'} text-[2.2vh]`}>
@@ -132,7 +132,7 @@ const WatchDetails = () => {
             <div className='flex flex-wrap gap-[2.2vw] mt-[3.5vh] text-[2.2vw] lg:text-[0.7vw] text-white/80'>
               {features.map((feature) => (
                 <div key={feature.id} className='flex flex-col items-center gap-[0.8vh] w-[12vh]'>
-                  <div className='w-[4vh] h-[4vh] rounded-full border border-white/20 flex items-center justify-center text-[2.2vh]'>
+                  <div className='w-[6vh] h-[6vh] rounded-full border border-white/20 flex items-center justify-center text-[2.2vh]'>
                     {feature.icon}
                   </div>
                   <span className='text-center whitespace-pre-line leading-tight'>{feature.label}</span>
