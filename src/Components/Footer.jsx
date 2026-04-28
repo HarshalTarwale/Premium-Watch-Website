@@ -8,14 +8,25 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = ({ headingText = "TITAN", headingStyle = {} }) => {
   return (
-    <div className='w-full relative pt-[10vh] mb-[2vh] px-[3vh] mt-[20vh]'>
+    <div
+      className='w-full relative'
+      style={{
+        paddingTop: 'calc(var(--app-vh) * 10)',
+        marginBottom: 'calc(var(--app-vh) * 2)',
+        paddingInline: 'calc(var(--app-vh) * 3)',
+        marginTop: 'calc(var(--app-vh) * 20)'
+      }}
+    >
       {/* Background Heading */}
       <div className='absolute top-0 left-1/2 -translate-x-1/2 opacity-30'>
         <Heading2 text={headingText} style={headingStyle} />
       </div>
 
       {/* Footer Content */}
-      <div className='footer mt-[12.9vh] relative backdrop-blur-[9.743px] bg-[rgba(23,23,23,0.1)] border-[#7e828d] border-[1px] rounded-[13px] max-w-[1390px] mx-auto px-[75px] py-[50px] text-white zen'>
+      <div
+        className='footer relative backdrop-blur-[9.743px] bg-[rgba(23,23,23,0.1)] border-[#7e828d] border-[1px] rounded-[13px] max-w-[1390px] mx-auto px-[75px] py-[50px] text-white zen'
+        style={{ marginTop: 'calc(var(--app-vh) * 12.9)' }}
+      >
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8'>
           
           {/* COLLECTIONS */}

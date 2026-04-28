@@ -46,7 +46,13 @@ const AllProducts = () => {
       <Backtotop />
 
       {/* Buttons */}
-      <div className='Buttons w-full flex justify-center gap-[2vh] mt-[15vh] pt-[3vh] text-white'>
+      <div
+        className='Buttons w-full flex justify-center gap-[2vh] text-white'
+        style={{
+          marginTop: 'calc(var(--app-vh) * 15)',
+          paddingTop: 'calc(var(--app-vh) * 3)'
+        }}
+      >
         <div onClick={() => scrollToSection('smart-section')}><Button1 text="Smart" /></div>
         <div onClick={() => scrollToSection('raga-section')}><Button1 text="Raga" /></div>
         <div onClick={() => scrollToSection('nebula-section')}><Button1 text="Nebula" /></div>
@@ -56,14 +62,23 @@ const AllProducts = () => {
       </div>
       
       {/* Best Seller Section with TITAN background */}
-      <div className='w-full relative pt-[10vh] mt-[8vh]'>
+      <div
+        className='w-full relative'
+        style={{
+          paddingTop: 'calc(var(--app-vh) * 10)',
+          marginTop: 'calc(var(--app-vh) * 8)'
+        }}
+      >
         {/* Background TITAN Heading */}
         <div className='absolute top-0 left-0 right-0 flex justify-center opacity-50 z-0'>
           <Heading3 text="TITAN" />
         </div>
         
         {/* Watch Catalog - 6 columns grid */}
-        <div className='relative z-10 mt-[10vh] w-full flex justify-center px-4'>
+        <div
+          className='relative z-10 w-full flex justify-center px-4'
+          style={{ marginTop: 'calc(var(--app-vh) * 10)' }}
+        >
           <div className='grid grid-cols-6 gap-x-[1.5vw] gap-y-[6vh] max-w-[95vw]'>
             {bestSellerWatches.map((watch) => (
               <WatchCard

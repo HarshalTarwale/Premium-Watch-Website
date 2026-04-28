@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import "tailwindcss";
 
+:root {
+  --app-vh: 1vh;
+}
+
 @layer base {
   html, body {
     background-color: black;
@@ -69,7 +73,8 @@
 
 .mySwiper {
   padding-bottom: 0px;
-  padding-left: 2vh;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 2vh; /* No extra padding needed since dots are now below */
 }
 

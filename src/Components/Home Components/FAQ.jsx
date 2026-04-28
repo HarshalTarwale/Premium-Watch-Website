@@ -92,7 +92,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
           color: 'white',
           textAlign: 'left',
           fontFamily: "'Zen Dots', sans-serif",
-          fontSize: '2vh',
+          fontSize: 'calc(var(--app-vh) * 2)',
           lineHeight: 'normal',
           fontWeight: 'normal',
           transition: 'background-color 0.2s ease',

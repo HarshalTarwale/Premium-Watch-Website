@@ -16,11 +16,18 @@ const NewArrival = () => {
   return (
     <div className="w-full flex justify-center px-[12vw] text-white mb-[10vh]">
       <div className=" w-full ">
-        <Heading1
+        <Heading1 className="mb-[10vh]"
           text="New Arrivals"
           style={{ WebkitTextStroke: "0.5px white" }}
         />
-        <div className="newcard-holder mt-[10vh] ">
+        <div
+          className="newcard-holder mt-[10vh]"
+          style={{
+            width: '100%',
+            maxWidth: 'calc(var(--app-vh) * 120 + 60px)',
+            margin: '0 auto'
+          }}
+        >
           <Swiper
             slidesPerView={3} // 🔧 ADJUST: Number of cards visible at once (3 cards on screen)
             spaceBetween={30} // 🔧 ADJUST: Gap between cards in pixels
