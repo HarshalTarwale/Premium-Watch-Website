@@ -11,7 +11,7 @@ const BestSeller = () => {
   const bestSellerWatches = [
     {
       id: 1,
-      imageSrc: 'Home/Best sellers/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
+      imageSrc: 'Home/Best sellers/speedtimer-ssc937p1.png',
       title: 'Titan Neon Analog Watch',
       description: 'Steel Strap watch for Men',
       price: '₹ 1,995',

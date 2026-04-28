@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.jsx'
 
 const setAppVh = () => {
-  document.documentElement.style.setProperty('--app-vh', `${window.innerHeight * 0.01}px`)
+  const viewportHeight = window.visualViewport?.height || window.innerHeight
+  document.documentElement.style.setProperty('--app-vh', `${viewportHeight * 0.01}px`)
 }
 
 setAppVh()
 window.addEventListener('resize', setAppVh)
+window.visualViewport?.addEventListener('resize', setAppVh)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

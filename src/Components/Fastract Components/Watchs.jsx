@@ -65,7 +65,7 @@ const Watchs = () => {
     },
     {
       id: 8,
-      imageSrc: 'Fastract/watches/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
+      imageSrc: 'Fastract/watches/speedtimer-ssc937p1.png',
       title: 'Titan | Fastract Speedtimer',
       description: 'Solar Chronograph Watch',
       price: '₹ 18,495.00',
@@ -195,7 +195,7 @@ const Watchs = () => {
     },
     {
       id: 24,
-      imageSrc: 'Fastract/watches/Vintage Charm Meets Modern Tech_ The Seiko Speedtimer SSC937P1 Review (Solar-Powered Chronograph) — MTR Watches 1.png',
+      imageSrc: 'Fastract/watches/speedtimer-ssc937p1.png',
       title: 'Titan | Fastract Speedtimer',
       description: 'Solar Chronograph Watch',
       price: '₹ 18,495.00',
