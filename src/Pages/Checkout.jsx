@@ -17,9 +17,9 @@ const Checkout = () => {
       <Navbar />
 
       <div className='pt-[16vh] px-[10vw]'>
-        <div className='mb-[4vh]'>
+        {/* <div className='mb-[4vh]'>
           <h1 className='zen text-[4.5vh] tracking-[2px]'>Checkout</h1>
-        </div>
+        </div> */}
 
         <div className='grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-[4vw]'>
           <div className='space-y-[3vh]'>
