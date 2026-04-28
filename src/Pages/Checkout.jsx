@@ -1,17 +1,39 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import { QRCodeSVG } from 'qrcode.react'
 import Navbar from '../Components/Navbar.jsx'
 import Footer from '../Components/Footer.jsx'
 import { calculateTotals, formatPrice, getCartItems } from '../data/cartStore.js'
 
 const Checkout = () => {
+  const location = useLocation()
   const [items, setItems] = useState([])
   const [paymentMethod, setPaymentMethod] = useState('upi')
   const [paymentMessage, setPaymentMessage] = useState('')
 
   useEffect(() => {
+    const buyNowWatch = location.state?.buyNowWatch
+
+    if (buyNowWatch) {
+      const baseId = buyNowWatch.id ?? buyNowWatch.sku ?? buyNowWatch.title
+      const id = buyNowWatch.imageSrc ? `${baseId}-${buyNowWatch.imageSrc}` : baseId
+
+      setItems([
+        {
+          id,
+          imageSrc: buyNowWatch.imageSrc,
+          title: buyNowWatch.title,
+          description: buyNowWatch.description,
+          price: buyNowWatch.price,
+          quantity: 1,
+          selected: true
+        }
+      ])
+      return
+    }
+
     setItems(getCartItems())
-  }, [])
+  }, [location.state])
 
   const totals = useMemo(() => calculateTotals(items), [items])
   const upiPaymentUrl = useMemo(() => {

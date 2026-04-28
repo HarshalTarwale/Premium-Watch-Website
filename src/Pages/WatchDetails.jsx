@@ -114,6 +114,7 @@ const WatchDetails = () => {
             <div className='flex items-center gap-[1vw] mt-[3vh]'>
               <Link
                 to='/checkout'
+                state={{ buyNowWatch: watch }}
                 className='zen bg-white text-black rounded-[999px] px-[4vh] py-[1.7vh] text-[2.4vw] lg:text-[0.9vw] font-semibold hover:bg-white/90 transition-colors'
               >
                 Buy Now
