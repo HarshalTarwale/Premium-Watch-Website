@@ -1,16 +1,30 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { QRCodeSVG } from 'qrcode.react'
 import Navbar from '../Components/Navbar.jsx'
 import Footer from '../Components/Footer.jsx'
 import { calculateTotals, formatPrice, getCartItems } from '../data/cartStore.js'
 
 const Checkout = () => {
   const [items, setItems] = useState([])
+  const [paymentMethod, setPaymentMethod] = useState('upi')
 
   useEffect(() => {
     setItems(getCartItems())
   }, [])
 
   const totals = useMemo(() => calculateTotals(items), [items])
+  const upiPaymentUrl = useMemo(() => {
+    const amount = totals.totalPrice.toFixed(2)
+    const params = new URLSearchParams({
+      pa: '7028235485@ybl',
+      pn: 'Harshal Chandrapalsingh Tarwale',
+      am: amount,
+      cu: 'INR',
+      tn: 'Titan order'
+    })
+
+    return `upi://pay?${params.toString()}`
+  }, [totals.totalPrice])
 
   return (
     <div className='bg-black min-h-screen w-full text-white'>
@@ -71,6 +85,56 @@ const Checkout = () => {
 
             <div className='border border-white/10 rounded-[22px] bg-white/5 p-[3vh]'>
               <h2 className='zen text-[2.4vh] mb-[2vh]'>Payment Details</h2>
+              <p className='text-white/60 text-[1.45vh] mb-[2vh]'>
+                Disclaimer: This website is not the official Titan website. Do not make payments. Payments are
+                non-refundable.
+              </p>
+              <div className='flex flex-wrap gap-[1vh] mb-[2.4vh]'>
+                <button
+                  type='button'
+                  onClick={() => setPaymentMethod('upi')}
+                  className={`zen px-[2.6vh] py-[1.2vh] rounded-[999px] border text-[1.5vh] ${
+                    paymentMethod === 'upi'
+                      ? 'bg-white text-black border-white'
+                      : 'bg-transparent text-white border-white/30'
+                  }`}
+                >
+                  UPI
+                </button>
+                <button
+                  type='button'
+                  onClick={() => setPaymentMethod('card')}
+                  className={`zen px-[2.6vh] py-[1.2vh] rounded-[999px] border text-[1.5vh] ${
+                    paymentMethod === 'card'
+                      ? 'bg-white text-black border-white'
+                      : 'bg-transparent text-white border-white/30'
+                  }`}
+                >
+                  Card
+                </button>
+              </div>
+
+              <div className='border border-white/10 rounded-[18px] bg-black/30 p-[2.4vh] mb-[2.6vh]'>
+                <div className='flex flex-col md:flex-row md:items-center gap-[2vh]'>
+                  <div className='bg-white rounded-[16px] p-[1.8vh] w-fit'>
+                    <QRCodeSVG value={upiPaymentUrl} size={150} />
+                  </div>
+                  <div className='space-y-[0.8vh] text-[1.5vh] text-white/70'>
+                    <p>
+                      <span className='text-white/90'>UPI ID:</span> 7028235485@ybl
+                    </p>
+                    <p>
+                      <span className='text-white/90'>Payee:</span> Harshal Chandrapalsingh Tarwale
+                    </p>
+                    <p>
+                      <span className='text-white/90'>Amount:</span> {formatPrice(totals.totalPrice)}
+                    </p>
+                    <p className='text-white/50 text-[1.4vh]'>Scan with any UPI app to pay.</p>
+                  </div>
+                </div>
+              </div>
+
+              {paymentMethod === 'card' && (
               <div className='space-y-[2vh]'>
                 <input
                   type='text'
@@ -95,6 +159,7 @@ const Checkout = () => {
                   />
                 </div>
               </div>
+              )}
 
               <button
                 type='button'
