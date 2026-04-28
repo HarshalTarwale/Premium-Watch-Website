@@ -7,6 +7,7 @@ import { calculateTotals, formatPrice, getCartItems } from '../data/cartStore.js
 const Checkout = () => {
   const [items, setItems] = useState([])
   const [paymentMethod, setPaymentMethod] = useState('upi')
+  const [paymentMessage, setPaymentMessage] = useState('')
 
   useEffect(() => {
     setItems(getCartItems())
@@ -25,6 +26,10 @@ const Checkout = () => {
 
     return `upi://pay?${params.toString()}`
   }, [totals.totalPrice])
+
+  const handlePaymentClick = () => {
+    setPaymentMessage('Payment successful. (Demo only)')
+  }
 
   return (
     <div className='bg-black min-h-screen w-full text-white'>
@@ -114,59 +119,66 @@ const Checkout = () => {
                 </button>
               </div>
 
-              <div className='border border-white/10 rounded-[18px] bg-black/30 p-[2.4vh] mb-[2.6vh]'>
-                <div className='flex flex-col md:flex-row md:items-center gap-[2vh]'>
-                  <div className='bg-white rounded-[16px] p-[1.8vh] w-fit'>
-                    <QRCodeSVG value={upiPaymentUrl} size={150} />
-                  </div>
-                  <div className='space-y-[0.8vh] text-[1.5vh] text-white/70'>
-                    <p>
-                      <span className='text-white/90'>UPI ID:</span> 7028235485@ybl
-                    </p>
-                    <p>
-                      <span className='text-white/90'>Payee:</span> Harshal Chandrapalsingh Tarwale
-                    </p>
-                    <p>
-                      <span className='text-white/90'>Amount:</span> {formatPrice(totals.totalPrice)}
-                    </p>
-                    <p className='text-white/50 text-[1.4vh]'>Scan with any UPI app to pay.</p>
+              {paymentMethod === 'upi' && (
+                <div className='border border-white/10 rounded-[18px] bg-black/30 p-[2.4vh] mb-[2.6vh]'>
+                  <div className='flex flex-col md:flex-row md:items-center gap-[2vh]'>
+                    <div className='bg-white rounded-[16px] p-[1.8vh] w-fit'>
+                      <QRCodeSVG value={upiPaymentUrl} size={150} />
+                    </div>
+                    <div className='space-y-[0.8vh] text-[1.5vh] text-white/70'>
+                      <p>
+                        <span className='text-white/90'>UPI ID:</span> 7028235485@ybl
+                      </p>
+                      <p>
+                        <span className='text-white/90'>Payee:</span> Harshal Chandrapalsingh Tarwale
+                      </p>
+                      <p>
+                        <span className='text-white/90'>Amount:</span> {formatPrice(totals.totalPrice)}
+                      </p>
+                      <p className='text-white/50 text-[1.4vh]'>Scan with any UPI app to pay.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              {paymentMethod === 'card' && (
-              <div className='space-y-[2vh]'>
-                <input
-                  type='text'
-                  placeholder='Cardholder Name'
-                  className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] w-full focus:outline-none focus:border-white/60'
-                />
-                <input
-                  type='text'
-                  placeholder='Card Number'
-                  className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] w-full tracking-[2px] focus:outline-none focus:border-white/60'
-                />
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-[2vh]'>
-                  <input
-                    type='text'
-                    placeholder='MM / YY'
-                    className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] focus:outline-none focus:border-white/60'
-                  />
-                  <input
-                    type='password'
-                    placeholder='CVV'
-                    className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] focus:outline-none focus:border-white/60'
-                  />
-                </div>
-              </div>
               )}
 
-              <button
-                type='button'
-                className='zen mt-[3vh] w-full bg-white text-black rounded-[999px] py-[1.8vh] text-[1.8vh]'
-              >
-                Make Payment
-              </button>
+              {paymentMethod === 'card' && (
+                <div className='space-y-[2vh]'>
+                  <input
+                    type='text'
+                    placeholder='Cardholder Name'
+                    className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] w-full focus:outline-none focus:border-white/60'
+                  />
+                  <input
+                    type='text'
+                    placeholder='Card Number'
+                    className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] w-full tracking-[2px] focus:outline-none focus:border-white/60'
+                  />
+                  <div className='grid grid-cols-1 md:grid-cols-2 gap-[2vh]'>
+                    <input
+                      type='text'
+                      placeholder='MM / YY'
+                      className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] focus:outline-none focus:border-white/60'
+                    />
+                    <input
+                      type='password'
+                      placeholder='CVV'
+                      className='bg-black/40 border border-white/20 rounded-[12px] px-[2vh] py-[1.4vh] text-[1.6vh] focus:outline-none focus:border-white/60'
+                    />
+                  </div>
+
+                  {paymentMessage && (
+                    <p className='text-[1.6vh] text-emerald-300'>{paymentMessage}</p>
+                  )}
+
+                  <button
+                    type='button'
+                    onClick={handlePaymentClick}
+                    className='zen mt-[1vh] w-full bg-white text-black rounded-[999px] py-[1.8vh] text-[1.8vh]'
+                  >
+                    Make Payment
+                  </button>
+                </div>
+              )}
             </div>
           </div>
 
