@@ -29,7 +29,7 @@ const NewArrival = () => {
           }}
         >
           <Swiper
-            slidesPerView={3} // 🔧 ADJUST: Number of cards visible at once (3 cards on screen)
+            slidesPerView={3} 
             spaceBetween={30} // 🔧 ADJUST: Gap between cards in pixels
             pagination={{
               clickable: true, // Makes the dots clickable
