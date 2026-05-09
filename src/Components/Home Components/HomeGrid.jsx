@@ -19,6 +19,7 @@ const HomeGrid = () => {
     navigate(`/${collection.toLowerCase()}`)
   }
 
+
   return (
     /* Grid Container - Displays Titan's watch collections in a masonry-style grid */
     <div className='Grid-container flex justify-center w-full mt-[12vh]'>

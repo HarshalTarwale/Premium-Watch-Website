@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 /**
  * FAQ Component
@@ -36,10 +38,48 @@ const faqData = [
 
 const FAQ = () => {
   const [openId, setOpenId] = useState(null)
+  const listRef = useRef(null)
 
   const toggleFAQ = (id) => {
     setOpenId(openId === id ? null : id)
   }
+
+  useEffect(() => {
+    if (!listRef.current) {
+      return undefined
+    }
+
+    const ctx = gsap.context(() => {
+      const items = gsap.utils.toArray(listRef.current.children)
+
+      gsap.fromTo(
+        items,
+        { opacity: 0, y: 50 },
+        {
+          opacity: 1,
+          y: 0,
+          ease: 'none',
+          stagger: 0.12,
+          scrollTrigger: {
+            trigger: listRef.current,
+            start: 'top 95%',
+            end: 'bottom 80%',
+            scrub: 1.2,
+            invalidateOnRefresh: true,
+          },
+        }
+      )
+    }, listRef)
+
+    const handleLoad = () => ScrollTrigger.refresh()
+    window.addEventListener('load', handleLoad)
+    requestAnimationFrame(() => ScrollTrigger.refresh())
+
+    return () => {
+      window.removeEventListener('load', handleLoad)
+      ctx.revert()
+    }
+  }, [])
 
   return (
     <div style={{ 
@@ -48,11 +88,14 @@ const FAQ = () => {
       margin: '0 auto',
       padding: '20px'
     }}>
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: 'column', 
-        gap: '16px' 
-      }}>
+      <div
+        ref={listRef}
+        style={{ 
+          display: 'flex', 
+          flexDirection: 'column', 
+          gap: '16px' 
+        }}
+      >
         {faqData.map((faq) => (
           <FAQItem 
             key={faq.id}

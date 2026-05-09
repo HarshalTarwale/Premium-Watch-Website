@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter as Router , Routes ,Route } from 'react-router-dom' 
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
 import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
@@ -7,6 +7,8 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Home from './Pages/Home.jsx' 
 import Account from './Pages/Account.jsx'
+import Login from './Pages/Login.jsx'
+import CreateAccount from './Pages/CreateAccount.jsx'
 import Wishlist from './Pages/Wishlist.jsx'
 import Cart from './Pages/Cart.jsx'
 import AllProducts from './Pages/AllProducts.jsx'
@@ -21,6 +23,16 @@ import Checkout from './Pages/Checkout.jsx'
 
 // Register GSAP ScrollTrigger
 gsap.registerPlugin(ScrollTrigger)
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+  }, [pathname])
+
+  return null
+}
 
 const App = () => {
   useEffect(() => {
@@ -55,9 +67,12 @@ const App = () => {
 
   return (
     <Router basename={import.meta.env.BASE_URL}>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/account' element={<Account />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/create-account' element={<CreateAccount />} />
         <Route path='/wishlist' element={<Wishlist />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/all-products' element={<AllProducts />} />

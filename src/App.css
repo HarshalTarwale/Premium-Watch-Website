@@ -20,5 +20,472 @@ html.lenis body {
   pointer-events: none;
 }
 
+/* ========================================
+   Account Page Styling
+   ======================================== */
+
+.account-page {
+  background: #000000;
+}
+
+.account-container {
+  max-width: 1200px;
+}
+
+.account-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.account-sidebar {
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 16px;
+}
+
+.account-sidebar-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 12px;
+}
+
+.account-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.account-nav-item {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+}
+
+.account-nav-item.is-active {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.account-signout {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.account-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.account-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 4px;
+}
+
+.account-subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.account-panel {
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 18px 20px;
+}
+
+.account-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  margin-bottom: 16px;
+}
+
+.account-panel-title {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.account-edit-btn {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.account-info-grid {
+  display: grid;
+  grid-template-columns: 170px 16px 1fr;
+  row-gap: 12px;
+  column-gap: 12px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.account-info-grid span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.account-address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.account-card {
+  border-radius: 18px;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(8, 8, 8, 0.6);
+}
+
+.account-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.account-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.account-value {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.account-divider {
+  height: 1px;
+  margin: 18px 0;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.account-btn-primary,
+.account-btn-ghost {
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.account-btn-primary {
+  background: #ffffff;
+  color: #000000;
+}
+
+.account-btn-ghost {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+  background: transparent;
+}
+
+.account-auth-card {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   Auth Pages (Login / Create Account)
+   ======================================== */
+
+.auth-page {
+  background: #000000;
+}
+
+.auth-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 16px 80px;
+}
+
+.auth-title {
+  font-size: clamp(24px, 3.2vw, 36px);
+  color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.auth-panel {
+  width: min(520px, 92vw);
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.auth-panel-wide {
+  width: min(640px, 94vw);
+}
+
+.auth-panel-inner {
+  background: transparent;
+  padding: 12px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-label {
+  font-family: 'Zen Dots', cursive;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.auth-input {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 12px 16px;
+  border-radius: 13px;
+  font-family: 'Zen Dots', cursive;
+  font-size: 14px;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.auth-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 12px 16px;
+  border-radius: 13px;
+  font-family: 'Zen Dots', cursive;
+  font-size: 15px;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.auth-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.auth-divider-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 10px;
+  font-family: 'Zen Dots', cursive;
+}
+
+.auth-social-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.auth-social-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 16px;
+  border-radius: 13px;
+  font-family: 'Zen Dots', cursive;
+  font-size: 14px;
+}
+
+.auth-footnote {
+  margin-top: 12px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+
+.auth-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* ========================================
+   Create Account (Figma 249:16)
+   ======================================== */
+
+.create-auth-card {
+  width: min(560px, 92vw);
+  padding: 22px 24px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.login-auth-card {
+  width: min(500px, 90vw);
+  padding: 20px 22px 18px;
+}
+
+.create-auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.create-auth-verify {
+  margin-top: 12px;
+}
+
+.create-auth-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.create-auth-input {
+  width: 100%;
+  height: 44px;
+  border-radius: 12px;
+  padding: 0 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.35);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  letter-spacing: 0.01em;
+}
+
+.create-auth-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.create-auth-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.create-auth-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.create-auth-check input {
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  accent-color: rgba(255, 255, 255, 0.9);
+}
+
+.create-auth-button {
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+}
+
+.create-auth-message {
+  margin: 0;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.create-auth-message-error {
+  color: #f87171;
+}
+
+
+.create-auth-footnote {
+  margin-top: 18px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .create-auth-row {
+    grid-template-columns: 1fr;
+  }
+
+  .account-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .account-sidebar {
+    order: 2;
+  }
+
+  .account-content {
+    order: 1;
+  }
+}
+
+@media (max-width: 540px) {
+  .account-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .account-info-grid span {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .auth-social-row {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 

@@ -83,25 +83,24 @@ const BestSeller = () => {
     // 🎬 LINE 1 SCROLLTRIGGER ANIMATION
     // ========================================
     gsap.fromTo(
-      line1Ref.current.children, // Target all child elements (WatchCards)
+      line1Ref.current.children,
       {
-        // 🔧 INITIAL STATE (before animation)
-        opacity: 0,           // 🎨 EDIT: Starting opacity (0 = invisible, 1 = visible)
-        y: 100,              // 🎨 EDIT: Starting Y position (pixels from final position)
-        scale: 0.8,          // 🎨 EDIT: Starting scale (0.8 = 80% of original size)
+        opacity: 0,
+        y: 80,
+        scale: 0.92,
       },
       {
-        // 🔧 FINAL STATE (after animation)
-        opacity: 1,          // 🎨 EDIT: Ending opacity
-        y: 0,                // 🎨 EDIT: Ending Y position (0 = original position)
-        scale: 1,            // 🎨 EDIT: Ending scale (1 = original size)
-        duration: 0.8,         // 🎨 EDIT: Animation duration in seconds
-        ease: 'power2.out',  // 🎨 EDIT: Easing function (power1/power2/power3/power4, elastic, back)
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        ease: 'none',
+        stagger: 0.08,
         scrollTrigger: {
-          trigger: line1Ref.current,    // Element that triggers the animation
-          start: 'top 80%',               // 🎨 EDIT: When animation starts (trigger top at viewport 80%)
-          toggleActions: 'play none none reverse', // 🎨 EDIT: onEnter onLeave onEnterBack onLeaveBack
-          // markers: true,                // 🐛 DEBUG: Uncomment to see trigger markers
+          trigger: line1Ref.current,
+          start: 'top 95%',
+          end: 'bottom 80%',
+          scrub: 1.2,
+          invalidateOnRefresh: true,
         },
       }
     )
@@ -110,31 +109,35 @@ const BestSeller = () => {
     // 🎬 LINE 2 SCROLLTRIGGER ANIMATION
     // ========================================
     gsap.fromTo(
-      line2Ref.current.children, // Target all child elements (WatchCards)
+      line2Ref.current.children,
       {
-        // 🔧 INITIAL STATE (before animation)
-        opacity: 0,           // 🎨 EDIT: Starting opacity
-        y: 100,              // 🎨 EDIT: Starting Y position
-        scale: 0.8,          // 🎨 EDIT: Starting scale
+        opacity: 0,
+        y: 80,
+        scale: 0.92,
       },
       {
-        // 🔧 FINAL STATE (after animation)
-       opacity: 1,          // 🎨 EDIT: Ending opacity
-        y: 0,                // 🎨 EDIT: Ending Y position (0 = original position)
-        scale: 1,            // 🎨 EDIT: Ending scale (1 = original size)
-        duration: 0.8,         // 🎨 EDIT: Animation duration in seconds
-        ease: 'power2.out',  // 🎨 EDIT: Easing function (power1/power2/power3/power4, elastic, back)
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        ease: 'none',
+        stagger: 0.08,
         scrollTrigger: {
-          trigger: line2Ref.current,    // Element that triggers the animation
-          start: 'top 80%',               // 🎨 EDIT: When animation starts (trigger top at viewport 80%)
-          toggleActions: 'play none none reverse', // 🎨 EDIT: onEnter onLeave onEnterBack onLeaveBack
-          // markers: true,           // 🐛 DEBUG: Uncomment to see trigger markers
+          trigger: line2Ref.current,
+          start: 'top 95%',
+          end: 'bottom 80%',
+          scrub: 1.2,
+          invalidateOnRefresh: true,
         },
       }
     )
 
+    const handleLoad = () => ScrollTrigger.refresh()
+    window.addEventListener('load', handleLoad)
+    requestAnimationFrame(() => ScrollTrigger.refresh())
+
     // Cleanup function
     return () => {
+      window.removeEventListener('load', handleLoad)
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
     }
   }, [])
