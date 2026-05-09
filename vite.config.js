@@ -5,5 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Titan-Website/',
+  base: '/Premium-Watch-Website/',
+  build: {
+    outDir: 'docs',
+  },
 })
