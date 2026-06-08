@@ -4,13 +4,15 @@ A modern Titan-inspired watch e-commerce website built with React. The project i
 
 ## Screenshots
 
-| Home Page | All Products Page |
-| --- | --- |
-| ![Titan home page](public/SS/Titan%20home%20ss.png) | ![Titan all products page](public/SS/titan%20all%20product%20ss.png) |
+<p>
+  <img src="public/SS/Titan%20home%20ss.png" alt="Titan home page" width="49%" />
+  <img src="public/SS/titan%20all%20product%20ss.png" alt="Titan all products page" width="49%" />
+</p>
 
-| Cart Page | Wishlist Page |
-| --- | --- |
-| ![Titan cart page](public/SS/Titan%20cart%20ss.png) | ![Titan wishlist page](public/SS/Titan%20wushlist%20ss.png) |
+<p>
+  <img src="public/SS/Titan%20cart%20ss.png" alt="Titan cart page" width="49%" />
+  <img src="public/SS/Titan%20wushlist%20ss.png" alt="Titan wishlist page" width="49%" />
+</p>
 
 ## Tech Stack
 
